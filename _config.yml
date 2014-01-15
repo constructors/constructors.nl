@@ -1,0 +1,9 @@
+name: Constructors
+markdown: redcarpet
+pygments: true
+permalink: /blog/:year/:month/:day/:title
+exclude:
+  - vendor
+  - bin
+  - Gemfile
+  - Gemfile.lock
