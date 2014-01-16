@@ -11,6 +11,7 @@
     <title>{{ page.title }} - Constructors</title>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/syntax.css" rel="stylesheet">
     <link href="/css/constructors.css" rel="stylesheet">
 
@@ -20,7 +21,7 @@
         <![endif]-->
   </head>
 
-  <body>
+  <body class=" {{ page.body }}">
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -60,17 +61,55 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Some links</a></li>
-            <li><a href="#">On the</a></li>
-            <li><a href="#">Right side</a></li>
+            <li><a href="https://github.com/constructors"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      {{ content }}
-    </div>
+    {{ content }}
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4 contact">
+            <ul>
+              <li>Constructors</li>
+              <li>Paradijslaan 666</li>
+              <li>Ruimte 123</li>
+              <li>5620 AB Eindhoven</li>
+              <li>The Netherlands</li>
+              <li>&nbsp;</li>
+              <li><i class="fa fa-envelope"></i> <a href="mailto:info@constructors.nl">info@constructors.nl</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-4 legal">
+            &copy 2014 Constructors
+          </div>
+          <div class="col-xs-4 smedia">
+            <ul>
+              <li>
+                <a href="https://github.com/constructors">
+                  Find us on Github <i class="fa fa-github-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Follow us on Twitter <i class="fa fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/constructors">
+                  Follow us on LinkedIn <i class="fa fa-linkedin-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>

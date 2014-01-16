@@ -2,8 +2,12 @@ name: Constructors
 markdown: redcarpet
 pygments: true
 permalink: /blog/:year/:month/:day/:title
+encoding: UTF-8
+timezone: Europe/Amsterdam
 exclude:
   - vendor
   - bin
   - Gemfile
   - Gemfile.lock
+  - LICENSE
+  - README.md
