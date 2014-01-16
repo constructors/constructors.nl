@@ -75,7 +75,7 @@ body.front-page .feature p {
 }
 
 body.other-page .content {
-  min-height: 1000px; /* temp */
+  min-height: 1000px;
 }
 
 footer {
