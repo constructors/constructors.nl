@@ -34,7 +34,7 @@ body.front-page .eindhoven-header span {
 }
 
 body.front-page .content {
-  width: 100%;
+  /* width: 100%; */
   background-color: #eee;
   padding: 50px 0;
 }
@@ -46,6 +46,11 @@ body.front-page .we-do h3 {
 body.front-page .we-do p {
   padding: 10px;
   text-align: center;
+}
+
+body.front-page hr {
+  border-color: #ccc;
+  margin-bottom: -75px;
 }
 
 body.front-page .feature {
@@ -94,14 +99,22 @@ footer ul {
   margin: 0px;
 }
 
-footer .contact {
-  text-align: left;
+@media (min-width: 768px) {
+  footer .contact {
+    text-align: left;
+  }
+
+  footer .legal {
+    text-align: center;
+  }
+
+  footer .smedia {
+    text-align: right;
+  }
 }
 
-footer .legal {
-  text-align: center;
-}
-
-footer .smedia {
-  text-align: right;
+@media (max-width: 768px) {
+  footer .legal {
+    margin: 10px 0;
+  }
 }
