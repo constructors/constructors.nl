@@ -1,5 +1,6 @@
 body {
   padding-top: 70px;
+  background-color: #eee;
 }
 
 .navbar {
@@ -34,7 +35,6 @@ body.front-page .eindhoven-header span {
 }
 
 body.front-page .content {
-  /* width: 100%; */
   background-color: #eee;
   padding: 50px 0;
 }
@@ -81,6 +81,81 @@ body.front-page .feature p {
 
 body.other-page .content {
   min-height: 1000px;
+}
+
+body.other-page .spacer {
+  height: 100px;
+}
+
+.au-intro {
+  margin-bottom: 50px;
+}
+
+.au-intro .story {
+  margin-bottom: 20px;
+}
+
+.au-intro .story p.tagline {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+.au-intro .office {
+  margin-bottom: -70px;
+}
+
+.au-intro .office .overlay {
+  background-color: #111;
+  padding: 0 10px;
+  position: relative;
+  top: -100px;
+  opacity: 0.8;
+  max-width: 600px;
+}
+
+.au-intro .office .overlay h3 {
+  color: #eee;
+  margin: 0px;
+  line-height: 70px;
+}
+
+.au-people {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 991px) {
+  .au-people .constructor {
+    margin-bottom: 50px;
+  }
+}
+
+.au-people .constructor img {
+  width: 150px;
+  height: 150px;
+}
+
+@media (min-width: 992px) {
+  .au-people .constructor .name {
+    height: 70px;
+  }
+}
+
+.au-people .constructor .name h3 {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+.au-people .constructor .name small {
+  font-style: italic;
+  font-size: 0.9em;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.au-people .constructor .social a {
+  font-size: 1.5em;
+  text-decoration: none;
 }
 
 footer {
