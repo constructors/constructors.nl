@@ -169,6 +169,16 @@ body.other-page .spacer {
   text-decoration: none;
 }
 
+.contact-text ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contact-map {
+  height: 400px;
+}
+
 footer {
   padding: 50px 0;
   background-color: #222;

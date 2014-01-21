@@ -11,7 +11,7 @@
     <title>{{ page.title }} - Constructors</title>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/syntax.css" rel="stylesheet">
     <link href="/css/constructors.css" rel="stylesheet">
 
@@ -65,15 +65,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4 contact">
-            <ul>
-              <li>Constructors</li>
-              <li>Paradijslaan 666</li>
-              <li>Ruimte 123</li>
-              <li>5620 AB Eindhoven</li>
-              <li>The Netherlands</li>
-              <li>&nbsp;</li>
-              <li><i class="fa fa-envelope"></i> <a href="mailto:info@constructors.nl">info@constructors.nl</a></li>
-            </ul>
+            {% include contact.html %}
           </div>
           <div class="col-sm-4 legal">
             &copy; 2014 Constructors
@@ -101,7 +93,12 @@
       </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    {% if page.url == "/contact/index.html" %}
+    <script src="//maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="/js/gmaps.js"></script>
+    <script src="/js/map.js"></script>
+    {% endif %}
   </body>
 </html>
