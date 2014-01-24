@@ -172,6 +172,9 @@ p.tagline b {
 
 .au-people .constructor .social i {
   font-size: 1.5em;
+}
+
+.au-people .constructor .social a {
   text-decoration: none;
 }
 
