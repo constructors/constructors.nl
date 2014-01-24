@@ -39,6 +39,7 @@ body.front-page .eindhoven-header {
 body.front-page .eindhoven-header h1 {
   margin-top: 182px;
   color: #eee;
+  text-shadow: 2px 2px #000;
 }
 
 body.front-page .eindhoven-header span {
@@ -98,17 +99,22 @@ body.other-page .spacer {
   height: 100px;
 }
 
+p.tagline {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+p.tagline b {
+  font-weight: normal;
+  color: #2d2d2d;
+}
+
 .au-intro {
   margin-bottom: 50px;
 }
 
 .au-intro .story {
   margin-bottom: 20px;
-}
-
-.au-intro .story p.tagline {
-  font-size: 1.5em;
-  margin-bottom: 2em;
 }
 
 .au-intro .office {
@@ -168,12 +174,6 @@ body.other-page .spacer {
   font-size: 1.5em;
   text-decoration: none;
 }
-
-.contact-text p.tagline {
-  font-size: 1.5em;
-  margin-bottom: 2em;
-}
-
 
 .contact-text ul {
   list-style-type: none;
