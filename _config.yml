@@ -9,5 +9,5 @@ exclude:
   - bin
   - Gemfile
   - Gemfile.lock
-  - LICENSE
+  - LICENSE.md
   - README.md

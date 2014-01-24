@@ -164,10 +164,16 @@ body.other-page .spacer {
   margin-bottom: 10px;
 }
 
-.au-people .constructor .social a {
+.au-people .constructor .social i {
   font-size: 1.5em;
   text-decoration: none;
 }
+
+.contact-text p.tagline {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
 
 .contact-text ul {
   list-style-type: none;

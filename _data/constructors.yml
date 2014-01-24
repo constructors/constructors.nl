@@ -1,0 +1,40 @@
+- name: Hacker Number One
+  title: Developer guru
+  photo: http://placekitten.com/g/150/150
+  email: info@constructors.nl
+  github:
+  twitter: https://twitter.com/constructorsehv
+  linkedin:
+  skills:
+    - This person has skills man! So many skills.
+    - Even super cow powers. Moo.
+- name: The Second Hacker
+  title: Master of hex
+  photo: http://placekitten.com/g/152/150
+  email: info@constructors.nl
+  github: https://github.com/constructors
+  twitter:
+  linkedin:
+  skills:
+    - This person has skills man! So many skills.
+    - Even super cow powers. Moo.
+- name: Hacker the Third
+  title: Bare metal wizard
+  photo: http://placekitten.com/g/150/152
+  email: info@constructors.nl
+  github:
+  twitter:
+  linkedin:
+  skills:
+    - This person has skills man! So many skills.
+    - Even super cow powers. Moo.
+- name: The Final Boss
+  title: Allround hacker
+  photo: http://placekitten.com/g/151/151
+  email: info@constructors.nl
+  github:
+  twitter:
+  linkedin: test
+  skills:
+    - This person has skills man! So many skills.
+    - Even super cow powers. Moo.

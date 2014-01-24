@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Software Consultancy based in Eindhoven">
+    <meta name="description" content="{{ site.data.site.description }}">
     <meta name="author" content="CodeVentures B.V.">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>{{ page.title }} - Constructors</title>
+    <title>{{ page.title }} - {{ site.data.site.title }}</title>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
@@ -51,9 +51,9 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://github.com/constructors"><i class="fa fa-github-square"></i></a></li>
-            <li><a href="https://twitter.com/constructorsehv"><i class="fa fa-twitter-square"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="{{ site.data.site.socialmedia.github }}"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="{{ site.data.site.socialmedia.twitter }}"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="{{ site.data.site.socialmedia.linkedin }}"><i class="fa fa-linkedin-square"></i></a></li>
           </ul>
         </div>
       </div>
@@ -68,22 +68,22 @@
             {% include contact.html %}
           </div>
           <div class="col-sm-4 legal">
-            &copy; 2014 Constructors
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> Constructors
           </div>
           <div class="col-sm-4 smedia">
             <ul>
               <li>
-                <a href="https://github.com/constructors">
+                <a href="{{ site.data.site.socialmedia.github }}">
                   Find us on Github <i class="fa fa-github-square"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="{{ site.data.site.socialmedia.twitter }}">
                   Follow us on Twitter <i class="fa fa-twitter-square"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="{{ site.data.site.socialmedia.linkedin }}">
                   Follow us on LinkedIn <i class="fa fa-linkedin-square"></i>
                 </a>
               </li>

@@ -44,105 +44,46 @@ title: About us
 
 <section class="au-people">
   <div class="row">
+    {% for constructor in site.data.constructors %}
     <div class="col-md-3 constructor">
-      <img alt="Photo of" src="http://placekitten.com/g/150/150" class="img-circle img-responsive">
+      <img alt="Photo of" src="{{ constructor.photo }}" class="img-circle img-responsive">
       <div class="name">
-        <h3>Hacker Number One</h3>
-        <small>Awesome hacker</small>
+        <h3>{{ constructor.name }}</h3>
+        <small>{{ constructor.title }}</small>
       </div>
       <p class="social">
-        <a href="" title="Github">
+        <a href="mailto:{{ constructor.email }}" title="Email">
+          <i class="fa fa-envelope"></i>
+        </a>
+        {% if constructor.github %}
+        <a href="{{ constructor.github }}" title="Github">
           <i class="fa fa-github-square"></i>
         </a>
-        <a href="" title="Twitter">
+        {% else %}
+        <i class="fa fa-github-square"></i>
+        {% endif %}
+        {% if constructor.twitter %}
+        <a href="{{ constructor.twitter }}" title="Twitter">
           <i class="fa fa-twitter-square"></i>
         </a>
-        <a href="" title="LinkedIn">
+        {% else %}
+        <i class="fa fa-twitter-square"></i>
+        {% endif %}
+        {% if constructor.linkedin %}
+        <a href="{{ constructor.linkedin }}" title="LinkedIn">
           <i class="fa fa-linkedin-square"></i>
         </a>
+        {% else %}
+        <i class="fa fa-linkedin-square"></i>
+        {% endif %}
       </p>
+      {% for skill in constructor.skills %}
       <p>
-        This person has skills man! So many skills.
+        {{ skill }}
       </p>
-      <p>
-        Even super cow powers. Moo.
-      </p>
+      {% endfor %}
     </div>
-
-    <div class="col-md-3 constructor">
-      <img alt="Photo of" src="http://placekitten.com/g/152/150" class="img-circle img-responsive">
-      <div class="name">
-        <h3>The Second Hacker</h3>
-        <small>Awesome hacker</small>
-      </div>
-      <p class="social">
-        <a href="" title="Github">
-          <i class="fa fa-github-square"></i>
-        </a>
-        <a href="" title="Twitter">
-          <i class="fa fa-twitter-square"></i>
-        </a>
-        <a href="" title="LinkedIn">
-          <i class="fa fa-linkedin-square"></i>
-        </a>
-      </p>
-      <p>
-        This person has skills man! So many skills.
-      </p>
-      <p>
-        Even super cow powers. Moo.
-      </p>
-    </div>
-
-    <div class="col-md-3 constructor">
-      <img alt="Photo of" src="http://placekitten.com/g/150/152" class="img-circle img-responsive">
-      <div class="name">
-        <h3>Hacker the Third</h3>
-        <small>Awesome hacker</small>
-      </div>
-      <p class="social">
-        <a href="" title="Github">
-          <i class="fa fa-github-square"></i>
-        </a>
-        <a href="" title="Twitter">
-          <i class="fa fa-twitter-square"></i>
-        </a>
-        <a href="" title="LinkedIn">
-          <i class="fa fa-linkedin-square"></i>
-        </a>
-      </p>
-      <p>
-        This person has skills man! So many skills.
-      </p>
-      <p>
-        Even super cow powers. Moo.
-      </p>
-    </div>
-
-    <div class="col-md-3 constructor">
-      <img alt="Photo of" src="http://placekitten.com/g/151/151" class="img-circle img-responsive">
-      <div class="name">
-        <h3>The Final Boss</h3>
-        <small>Awesome hacker</small>
-      </div>
-      <p class="social">
-        <a href="" title="Github">
-          <i class="fa fa-github-square"></i>
-        </a>
-        <a href="" title="Twitter">
-          <i class="fa fa-twitter-square"></i>
-        </a>
-        <a href="" title="LinkedIn">
-          <i class="fa fa-linkedin-square"></i>
-        </a>
-      </p>
-      <p>
-        This person has skills man! So many skills.
-      </p>
-      <p>
-        Even super cow powers. Moo.
-      </p>
-    </div>
+    {% endfor %}
   </div>
 </section>
 
