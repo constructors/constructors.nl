@@ -98,6 +98,11 @@
 
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    {% if page.url == "/index.html" %}
+    <!-- Because iOS Safari -->
+    <script src="/js/jquery.backstretch.min.js"></script>
+    <script>$(function () { $.backstretch("/img/eindhoven-city.jpg");});</script>
+    {% endif %}
     {% if page.url == "/contact/index.html" %}
     <script src="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
     <script src="/js/map.js"></script>
