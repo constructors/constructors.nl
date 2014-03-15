@@ -6,35 +6,32 @@
   twitter: https://twitter.com/bjornheesakkers
   linkedin: http://nl.linkedin.com/pub/bjorn-heesakkers
   skills:
-    - This person has skills man! So many skills.
-    - Even super cow powers. Moo.
+    - Business development, customer experience and sales are some of the things Bjorn know.
 - name: Rico van Genugten
-  title: Gas Leak
+  title: Jack of all trades
   photo: /img/person.png
   email: rico@constructors.nl
   github: https://github.com/ricovangenugten
   twitter: https://twitter.com/tete_de_moine
   linkedin: http://nl.linkedin.com/in/ricovangenugten
   skills:
-    - This person has skills man! So many skills.
-    - Even super cow powers. Moo.
+    - Web-development, Embedded Development, Automative, Chemical Engineering, Rico knows it all.
+    - 
 - name: John Roijackers
-  title: Not here very often
+  title: Hardcore Developer
   photo: /img/person.png
   email: john@constructors.nl
   github: https://github.com/jroijackers
   twitter:
   linkedin: http://nl.linkedin.com/in/jroijackers
   skills:
-    - This person has skills man! So many skills.
-    - Even super cow powers. Moo.
+    - John has intense knowledge about computer science and knows how to get that extra cpu cycle out of his code.
 - name: Joris van Rooij
-  title: Chinese food connaisseur
+  title: DevOps connaisseur
   photo: /img/person.png
   email: joris@constructors.nl
   github: https://github.com/jorrizza
   twitter: https://github.com/jorrizza
   linkedin: http://nl.linkedin.com/in/jorrizza
   skills:
-    - This person has skills man! So many skills.
-    - Even super cow powers. Moo.
+    - Joris combines system administration and software development to deliver a great customer experience.
