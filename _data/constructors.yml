@@ -1,40 +1,40 @@
-- name: Hacker Number One
-  title: Developer guru
-  photo: http://placekitten.com/g/150/150
-  email: info@constructors.nl
-  github:
-  twitter: https://twitter.com/constructorsehv
-  linkedin:
+- name: Bjorn Heesakkers
+  title: Business Developer
+  photo: /img/person.png
+  email: bjorn@constructors.nl
+  github: https://github.com/expleo
+  twitter: https://twitter.com/bjornheesakkers
+  linkedin: http://nl.linkedin.com/pub/bjorn-heesakkers
   skills:
     - This person has skills man! So many skills.
     - Even super cow powers. Moo.
-- name: The Second Hacker
-  title: Master of hex
-  photo: http://placekitten.com/g/152/150
-  email: info@constructors.nl
-  github: https://github.com/constructors
-  twitter:
-  linkedin:
+- name: Rico van Genugten
+  title: Gas Leak
+  photo: /img/person.png
+  email: rico@constructors.nl
+  github: https://github.com/ricovangenugten
+  twitter: https://twitter.com/tete_de_moine
+  linkedin: http://nl.linkedin.com/in/ricovangenugten
   skills:
     - This person has skills man! So many skills.
     - Even super cow powers. Moo.
-- name: Hacker the Third
-  title: Bare metal wizard
-  photo: http://placekitten.com/g/150/152
-  email: info@constructors.nl
-  github:
+- name: John Roijackers
+  title: Not here very often
+  photo: /img/person.png
+  email: john@constructors.nl
+  github: https://github.com/jroijackers
   twitter:
-  linkedin:
+  linkedin: http://nl.linkedin.com/in/jroijackers
   skills:
     - This person has skills man! So many skills.
     - Even super cow powers. Moo.
-- name: The Final Boss
-  title: Allround hacker
-  photo: http://placekitten.com/g/151/151
-  email: info@constructors.nl
-  github:
-  twitter:
-  linkedin: test
+- name: Joris van Rooij
+  title: Chinese food connaisseur
+  photo: /img/person.png
+  email: joris@constructors.nl
+  github: https://github.com/jorrizza
+  twitter: https://github.com/jorrizza
+  linkedin: http://nl.linkedin.com/in/jorrizza
   skills:
     - This person has skills man! So many skills.
     - Even super cow powers. Moo.

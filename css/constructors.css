@@ -29,13 +29,14 @@ body.front-page .eindhoven-header {
 }
 
 body.front-page .eindhoven-header h1 {
-  margin-top: 182px;
+  margin: 182px 0 0 0;
   color: #eee;
   text-shadow: 2px 2px #000;
 }
 
 body.front-page .eindhoven-header span {
   color: #eee;
+  font-size: 1.2em;
 }
 
 body.front-page .content {
