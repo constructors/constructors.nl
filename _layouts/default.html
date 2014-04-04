@@ -101,7 +101,7 @@
     {% if page.url == "/index.html" %}
     <!-- Because iOS Safari -->
     <script src="/js/jquery.backstretch.min.js"></script>
-    <script>$(function () { $.backstretch("/img/eindhoven-city.jpg");});</script>
+    <script>$(function () { $.backstretch("/img/eindhoven/eindhoven-" + Math.floor((Math.random()*12)+1).toString() + ".jpg");});</script>
     {% endif %}
     {% if page.url == "/contact/index.html" %}
     <script src="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
