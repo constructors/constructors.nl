@@ -49,9 +49,11 @@
             <li{% if page.url == "/contact/index.html" %} class="active"{% endif %}>
               <a href="/contact/">Contact</a>
             </li>
+            <!--
             <li{% if page.url contains "/blog/" %} class="active"{% endif %}>
               <a href="/blog/">Blog</a>
             </li>
+            //-->
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="{{ site.data.site.socialmedia.github }}"><i class="fa fa-github-square"></i></a></li>
@@ -107,5 +109,14 @@
     <script src="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
     <script src="/js/map.js"></script>
     {% endif %}
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-49729992-1', 'constructors.nl');
+    ga('send', 'pageview');
+    </script>
   </body>
 </html>
