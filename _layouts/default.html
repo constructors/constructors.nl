@@ -108,7 +108,29 @@
     {% if page.url == "/index.html" %}
     <!-- Because iOS Safari -->
     <script src="/js/jquery.backstretch.min.js"></script>
-    <script>$(function () { $('.backdrop').backstretch("/img/eindhoven/eindhoven-" + Math.floor((Math.random()*12)+1).toString() + ".jpg");});</script>
+    <script>
+      $(function () { 
+	function shuffle(array)
+	{
+          // Fisher-Yates shuffle
+          var tempValue, rndIndex, curIndex = images.length;
+          while (0 !== curIndex) {
+            rndIndex = Math.floor(Math.random() * curIndex);
+            curIndex -= 1;
+            tempValue = images[curIndex];
+            array[curIndex] = array[rndIndex];
+            array[rndIndex] = tempValue;
+          }
+          return array;
+	}
+
+        var images = new Array();
+        for (var i=0;i<=11;i++)
+          images[i] = '/img/eindhoven/eindhoven-'+i.toString()+'.jpg';
+        shuffle(images);
+        $('.backdrop').backstretch(images, {fade: 1.5e3, duration:5e3});
+      });
+    </script>
     {% endif %}
     {% if page.url == "/contact/index.html" %}
     <script src="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
