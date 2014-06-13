@@ -36,13 +36,26 @@ body.front-page .eindhoven-header {
   height: 400px;
 }
 
+body.front-page .eindhoven-header .text-container {
+  max-width: 700px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* vertical align hack */
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /*/ vertical align hack */
+}
+
 body.front-page .eindhoven-header h1 {
-  margin: 182px 0 0 0;
+  display: inline;
   color: #eee;
   text-shadow: 2px 2px #000;
 }
 
-body.front-page .eindhoven-header span {
+body.front-page .eindhoven-header p {
   color: #eee;
   font-size: 1.2em;
   text-shadow: 1px 1px #000;
