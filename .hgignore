@@ -3,3 +3,4 @@ syntax: glob
 bin
 vendor
 _site
+.sass-cache

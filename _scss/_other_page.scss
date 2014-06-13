@@ -1,0 +1,19 @@
+body.other-page {
+  .content {
+    min-height: 1000px;
+  }
+
+  .spacer {
+    height: 100px;
+  }
+
+  p.tagline {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+
+    b {
+      font-weight: normal;
+      color: #2d2d2d;
+    }
+  }
+}

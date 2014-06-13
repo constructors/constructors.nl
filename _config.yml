@@ -5,6 +5,9 @@ permalink: /blog/:year/:month/:day/:title
 encoding: UTF-8
 timezone: Europe/Amsterdam
 languages: ["en", "nl"]
+sass:
+  sass_dir: _scss
+  style: :compressed
 exclude:
   - vendor
   - bin

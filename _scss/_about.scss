@@ -1,0 +1,70 @@
+.au-intro {
+  margin-bottom: 50px;
+
+  .story {
+    margin-bottom: 20px;
+  }
+
+  .office {
+    margin-bottom: -70px;
+
+    .overlay {
+      background-color: #111;
+      padding: 0 10px;
+      position: relative;
+      top: -100px;
+      opacity: 0.8;
+      max-width: 600px;
+
+      h3 {
+        color: #eee;
+        margin: 0px;
+        line-height: 70px;
+      }
+    }
+  }
+}
+
+.au-people {
+  margin-bottom: 50px;
+
+  .constructor {
+    @media (max-width: 991px) {
+      margin-bottom: 50px;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .name {
+      @media (min-width: 992px) {
+        height: 70px;
+      }
+
+      h3 {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 0px;
+      }
+
+      small {
+        font-style: italic;
+        font-size: 0.9em;
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+
+    .social {
+      i {
+        font-size: 1.5em;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
