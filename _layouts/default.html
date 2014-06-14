@@ -41,24 +41,35 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li{% if page.url == "/index.html" %} class="active"{% endif %}>
-              <a href="/">Home</a>
+              <a href="{{ site.baseurl }}/">{% t menu.home %}</a>
             </li>
             <li{% if page.url == "/about/index.html" %} class="active"{% endif %}>
-              <a href="/about/">About</a>
+              <a href="{{ site.baseurl }}/about/">{% t menu.about %}</a>
             </li>
             <li{% if page.url == "/contact/index.html" %} class="active"{% endif %}>
-              <a href="/contact/">Contact</a>
+              <a href="{{ site.baseurl }}/contact/">{% t menu.contact %}</a>
             </li>
-            <!--
             <li{% if page.url contains "/blog/" %} class="active"{% endif %}>
-              <a href="/blog/">Blog</a>
+              <a href="{{ site.baseurl }}/blog/">{% t menu.blog %}</a>
             </li>
-            //-->
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="{{ site.data.site.socialmedia.github }}"><i class="fa fa-github-square"></i></a></li>
-            <li><a href="{{ site.data.site.socialmedia.twitter }}"><i class="fa fa-twitter-square"></i></a></li>
-            <li><a href="{{ site.data.site.socialmedia.linkedin }}"><i class="fa fa-linkedin-square"></i></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                {% if site.lang == "nl" %}
+                Nederlands
+                {% else %}
+                English
+                {% endif %}
+                <i class="fa fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="{{ site.baseurl_root }}{{ page.url  }}">English</a>
+                  <a href="{{ site.baseurl_root }}/nl{{ page.url  }}">Nederlands</a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -73,10 +84,26 @@
             {% include contact.html %}
           </div>
           <div class="col-sm-4 legal">
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> Constructors
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a> Constructors
           </div>
           <div class="col-sm-4 smedia">
-            {% tf footer/social.html %}
+            <ul>
+              <li>
+                <a href="{{ site.data.site.socialmedia.github }}">
+                  {% t footer.github %} <i class="fa fa-github-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.data.site.socialmedia.twitter }}">
+                  {% t footer.twitter %} <i class="fa fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.data.site.socialmedia.linkedin }}">
+                  {% t footer.linkedin %} <i class="fa fa-linkedin-square"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
