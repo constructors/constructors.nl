@@ -10,13 +10,16 @@ body {
   box-shadow:         0px 4px 5px 0px rgba(50, 50, 50, 0.75);
 
   .navbar-brand {
-    line-height: 25px;
-
     img {
       height: 25px;
       float: left;
-      margin-right: 5px;
+      margin: -2px 5px 0px 0px;
     }
+  }
+
+  li > a, li > a:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
