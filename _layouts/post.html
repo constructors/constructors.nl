@@ -5,7 +5,7 @@ body: other-page
 <section class="content">
   <div class="container">
     <h2>{{ page.title }}</h2>
-    <p class="meta">{{ page.date | date_to_string }} by {{ page.author}}</p>
+    <p class="meta">{{ page.date | date_to_string }} {% t blog.by %} {{ page.author }}</p>
 
     <div class="post">
       {{ content }}

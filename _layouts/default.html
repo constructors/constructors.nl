@@ -39,36 +39,10 @@
           </a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li{% if page.url == "/index.html" %} class="active"{% endif %}>
-              <a href="{{ site.baseurl }}/">{% t menu.home %}</a>
-            </li>
-            <li{% if page.url == "/about/index.html" %} class="active"{% endif %}>
-              <a href="{{ site.baseurl }}/about/">{% t menu.about %}</a>
-            </li>
-            <li{% if page.url == "/contact/index.html" %} class="active"{% endif %}>
-              <a href="{{ site.baseurl }}/contact/">{% t menu.contact %}</a>
-            </li>
-            <li{% if page.url contains "/blog/" %} class="active"{% endif %}>
-              <a href="{{ site.baseurl }}/blog/">{% t menu.blog %}</a>
-            </li>
-          </ul>
+          {% include top_menu.html %}
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                {% if site.lang == "nl" %}
-                Nederlands
-                {% else %}
-                English
-                {% endif %}
-                <i class="fa fa-caret-down"></i>
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="{{ site.baseurl_root }}{{ page.url  }}">English</a>
-                  <a href="{{ site.baseurl_root }}/nl{{ page.url  }}">Nederlands</a>
-                </li>
-              </ul>
+              {% include language_select.html %}
             </li>
           </ul>
         </div>

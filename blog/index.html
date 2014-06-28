@@ -3,11 +3,10 @@ layout: page
 title: Blog
 ---
 
-<p>
-  We write things every now and then for you to enjoy.
-</p>
+{% tf blog/intro.html %}
 
 {% for post in site.posts %}
+{% if post.lang == site.lang %}
 <div class="row">
   <div class="col-xs-12">
     <h2>{{ post.title }}</h2>
@@ -15,10 +14,11 @@ title: Blog
       <p>
         {{ post.excerpt }}
       </p>
-      <small>{{ post.date | date_to_string }} by <cite>{{ post.author }}</cite>
-        <a href="{{ post.url }}">Read more &raquo;</a>
+      <small>{{ post.date | date_to_string }} {% t blog.by %} <cite>{{ post.author }}</cite>
+        <a href="{{ site.baseurl }}{{ post.url }}">{% t blog.readmore %} &raquo;</a>
       </small>
     </blockquote>
   </div>
 </div>
+{% endif %}
 {% endfor %}
