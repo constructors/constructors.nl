@@ -17,9 +17,13 @@ body {
     }
   }
 
-  li > a, li > a:hover {
-    padding-top: 15px;
-    padding-bottom: 15px;
+  .navbar-nav {
+    > li {
+      > a, > a:hover {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    }
   }
 }
 
