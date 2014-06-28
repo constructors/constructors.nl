@@ -1,4 +1,6 @@
 ---
+nl: Dutch
+en: English
 footer:
   github: Find us on Github
   twitter: Follow us on Twitter
@@ -11,3 +13,5 @@ menu:
 blog:
   readmore: Read more
   by: by
+  in: in
+  on: On
