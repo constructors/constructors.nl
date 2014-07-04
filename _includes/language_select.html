@@ -8,12 +8,7 @@
 </a>
 <ul class="dropdown-menu">
   <li>
-    {% if page.url contains "/blog/" %}
-    <a href="{{ site.baseurl_root }}/blog/">English</a>
-    <a href="{{ site.baseurl_root }}/nl/blog/">Nederlands</a>
-    {% else %}
     <a href="{{ site.baseurl_root }}{{ page.url }}">English</a>
     <a href="{{ site.baseurl_root }}/nl{{ page.url }}">Nederlands</a>
-    {% endif %}
   </li>
 </ul>
