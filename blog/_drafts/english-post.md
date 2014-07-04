@@ -1,5 +1,4 @@
 ---
-layout: post
 title: English Post
 lang: en
 author: Joris

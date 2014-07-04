@@ -5,19 +5,25 @@ title: Blog
 
 {% tf blog/intro.html %}
 
-{% for post in site.posts %}
-<div class="row">
-  <div class="col-xs-12">
-    <h2>{{ post.title }}</h2>
+<div class="row blog-index">
+  {% for post in site.posts %}
+  {% assign mod = forloop.index0 | modulo:2 %}
+  <div class="col-sm-6">
+    <div class="blog-post category-{{ post.category }}">
+      <h2>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
 
-    <blockquote>
-      <p>
+      <blockquote>
         {{ post.excerpt }}
-      </p>
-      <small>{% t blog.on %} {{ post.date | date_to_string }} {% t blog.in %} {% t post.lang %} {% t blog.by %} <cite>{{ post.author }}</cite>
-        <a href="{{ site.baseurl }}{{ post.url }}">{% t blog.readmore %} &raquo;</a>
-      </small>
-    </blockquote>
+        <small>{% t blog.on %} {% include date.html date=post.date %} {% t blog.in %} {% t post.lang %} {% t blog.by %} <cite>{{ post.author }}</cite>
+        </small>
+      </blockquote>
+    </div>
   </div>
+  {% if mod == 1 %}
 </div>
-{% endfor %}
+<div class="row blog-index">
+  {% endif %}
+  {% endfor %}
+</div>

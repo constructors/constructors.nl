@@ -1,0 +1,56 @@
+.blog-index {
+  .blog-post {
+    padding: 5px 15px;;
+    border-radius: 5px;
+    opacity: 0.65;
+    margin-top: 15px;
+
+    h2 {
+      text-shadow: 2px 2px #000;
+    }
+
+    blockquote {
+      border: 0px;
+      color: #EEE;
+      background-color: transparent;
+      text-shadow: 1px 1px #000;
+
+      small {
+        color: #DDD;
+      }
+    }
+
+    a:link, a:active, a:visited {
+      color: #EEE;
+      background-color: transparent;
+    }
+  }
+}
+
+.category-label {
+  opacity: 0.65;
+}
+
+.category-default {
+  background-color: $dark-grey;
+}
+
+.category-development {
+  background-color: $dark-blue;
+}
+
+.category-operations {
+  background-color: $light-blue;
+}
+
+.category-management {
+  background-color: $orange;
+}
+
+.category-marketing {
+  background-color: $red;
+}
+
+.category-announcements {
+  background-color: $green;
+}

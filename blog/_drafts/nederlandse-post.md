@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Nederlandse Post
 lang: nl
 author: Joris
