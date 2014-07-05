@@ -1,5 +1,7 @@
 name: Constructors
-future: false
+url: http://www.constructors.nl
+rss_path: /blog/
+rss_name: feed.xml
 markdown: redcarpet
 highlighter: pygments
 permalink: /blog/:year/:month/:day/:title
@@ -24,3 +26,5 @@ defaults:
     values:
       category: "default"
       layout: "post"
+      image: "none"
+      attribution: "public domain"

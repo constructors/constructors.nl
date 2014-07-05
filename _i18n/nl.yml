@@ -27,6 +27,7 @@ blog:
   by: door
   in: in het
   "on": Op
+  photo: Foto
   categories:
     development: ontwikkeling
     operations: beheer

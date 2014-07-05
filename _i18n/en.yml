@@ -27,6 +27,7 @@ blog:
   by: by
   in: in
   "on": "On"
+  photo: Photo
   categories:
     development: development
     operations: operations

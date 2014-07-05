@@ -2,12 +2,41 @@
 layout: default
 body: other-page
 ---
+<section class="blog-intro category-{{ page.category }}"{% if page.image != 'none' %} style="background-image: url(/img/blog/{{ page.image }})"{% endif %}>
+  <div class="container">
+    <div class="wow img-rounded">
+      <h1>{{ page.title }}</h1>
+      <p class="meta">
+        {% capture cattrans %}blog.categories.{{ page.category }}{% endcapture %}
+        <span class="label category-label category-{{ page.category }}">{% t cattrans %}</span>
+        {% t blog.on %} {% include date.html date=page.date %} {% t blog.in %} {% t page.lang %} {% t blog.by %} {{ page.author }}
+      </p>
+
+      <div class="excerpt">
+        {{ page.excerpt }}
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-intro-footer">
+    <a name="content"></a>
+    <div class="down-arrow">
+      <a href="#content">
+        <i class="fa fa-angle-double-down"></i>
+      </a>
+    </div>
+  </div>
+
+  {% if page.image != 'none' %}
+  <div class="attribution">
+    {% t blog.photo %}: {{ page.attribution }}
+  </div>
+  {% endif %}
+</section>
+
 <section class="content">
   <div class="container">
-    <h2>{{ page.title }}</h2>
-    <p class="meta">{% include date.html date=page.date %} {% t blog.by %} {{ page.author }}</p>
-
-    <div class="post">
+    <div class="blog-post">
       {{ content }}
     </div>
   </div>
