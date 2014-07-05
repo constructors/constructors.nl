@@ -1,28 +1,44 @@
 .blog-index {
+  a:link, a:active, a:visited, a:hover {
+    color: #EEE;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
   .blog-post {
-    padding: 5px 15px;;
     border-radius: 5px;
     opacity: 0.65;
     margin-top: 15px;
 
-    h2 {
-      text-shadow: 2px 2px #000;
-    }
+    .blog-header {
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius:  5px 5px 0px 0px;
 
-    blockquote {
-      border: 0px;
-      color: #EEE;
-      background-color: transparent;
-      text-shadow: 1px 1px #000;
-
-      small {
-        color: #DDD;
+      h2 {
+        border-radius:  5px 5px 0px 0px;
+        background-color: rgba(0,0,0,0.5);
+        color: #EEE;
+        margin: 0px;
+        padding: 20px 10px;
+        text-shadow: 2px 2px #000;
       }
     }
 
-    a:link, a:active, a:visited {
-      color: #EEE;
-      background-color: transparent;
+    .blog-excerpt {
+      blockquote {
+        border: 0px;
+        margin: 0px;
+        padding: 10px;
+        color: #EEE;
+        background-color: transparent;
+        text-shadow: 1px 1px #000;
+
+        small {
+          color: #DDD;
+        }
+      }
     }
   }
 }

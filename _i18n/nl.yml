@@ -27,3 +27,10 @@ blog:
   by: door
   in: in het
   "on": Op
+  categories:
+    development: ontwikkeling
+    operations: beheer
+    management: projectmanagement
+    marketing: online marketing
+    announcements: bedrijfsnieuws
+    default: andere zaken

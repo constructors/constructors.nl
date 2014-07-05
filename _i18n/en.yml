@@ -27,3 +27,10 @@ blog:
   by: by
   in: in
   "on": "On"
+  categories:
+    development: development
+    operations: operations
+    management: project management
+    marketing: online marketing
+    announcements: company announcements
+    default: other things

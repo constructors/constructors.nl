@@ -1,3 +1,7 @@
 <p>
-  We write things every now and then for you to enjoy. We write about <span class="label category-label category-development">development</span>, <span class="label category-label category-operations">operations</span>, <span class="label category-label category-management">project management</span>, <span class="label category-label category-marketing">online marketing</span>, <span class="label category-label category-announcements">company announcements</span> and <span class="label category-label category-default">other things</span>.
+  We write things every now and then for you to enjoy. We write about the following things:
+  {% for cat in site.data.blog.categories %}
+  {% capture cattrans %}blog.categories.{{ cat }}{% endcapture %}
+  {% if forloop.last %}and {% endif %}<span class="label category-label category-{{ cat }}">{% t cattrans %}</span>
+  {% endfor %}.
 </p>
