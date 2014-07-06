@@ -12,7 +12,7 @@ todo: Add pagination when we've got plenty of posts
   <div class="col-sm-6">
     <a href="{{ site.baseurl }}{{ post.url }}">
       <div class="blog-post category-{{ post.category }}">
-        <div class="blog-header"{% if post.image != 'none' %} style="background-image: url(/img/blog/{{ post.image }})"{% endif %}>
+        <div class="blog-header"{% if post.image != 'none' %} style="background-image: url(/img/blog/thumb/{{ post.image }})"{% endif %}>
           <h2>
             {{ post.title }}
           </h2>
