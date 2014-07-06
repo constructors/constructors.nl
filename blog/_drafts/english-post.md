@@ -1,7 +1,7 @@
 ---
 title: English Post
 lang: en
-author: Joris
+author: joris
 ---
 
 Hi there friends! This is an English blog post.

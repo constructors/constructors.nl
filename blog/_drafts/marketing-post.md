@@ -1,7 +1,7 @@
 ---
 title: Marketing Post
 lang: en
-author: Joris
+author: bjorn
 category: marketing
 ---
 

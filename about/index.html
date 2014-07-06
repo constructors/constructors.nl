@@ -45,36 +45,13 @@ title: About us
   <div class="row">
     {% for constructor in site.data.constructors %}
     <div class="col-md-3 constructor">
-      <img alt="Photo of" src="{{ constructor.photo }}" class="img-circle img-responsive">
+      <img alt="Photo of" src="/img/heads/{{ constructor.shortname }}.jpg" class="img-circle img-responsive">
       <div class="name">
         <h3>{{ constructor.name }}</h3>
         <small>{{ constructor.title }}</small>
       </div>
       <p class="social">
-        <a href="mailto:{{ constructor.email }}" title="Email">
-          <i class="fa fa-envelope"></i>
-        </a>
-        {% if constructor.github %}
-        <a href="{{ constructor.github }}" title="Github">
-          <i class="fa fa-github-square"></i>
-        </a>
-        {% else %}
-        <i class="fa fa-github-square"></i>
-        {% endif %}
-        {% if constructor.twitter %}
-        <a href="{{ constructor.twitter }}" title="Twitter">
-          <i class="fa fa-twitter-square"></i>
-        </a>
-        {% else %}
-        <i class="fa fa-twitter-square"></i>
-        {% endif %}
-        {% if constructor.linkedin %}
-        <a href="{{ constructor.linkedin }}" title="LinkedIn">
-          <i class="fa fa-linkedin-square"></i>
-        </a>
-        {% else %}
-        <i class="fa fa-linkedin-square"></i>
-        {% endif %}
+        {% include socialmedialinks.html constructor=constructor %}
       </p>
       {% for skill in constructor.skills %}
       <p>

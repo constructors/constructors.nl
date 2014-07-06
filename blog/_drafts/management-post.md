@@ -1,7 +1,7 @@
 ---
 title: Management Post
 lang: en
-author: Joris
+author: bjorn
 category: management
 ---
 

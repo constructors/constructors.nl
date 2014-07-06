@@ -1,7 +1,7 @@
 ---
 title: Nederlandse Post
 lang: nl
-author: Joris
+author: joris
 ---
 
 Hallo luitjes! Dit is een Nederlandse blog post.

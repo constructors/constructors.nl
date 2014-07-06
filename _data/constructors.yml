@@ -1,33 +1,33 @@
-- name: Bjorn Heesakkers
+- shortname: bjorn
+  name: Bjorn Heesakkers
   title: Business Developer
-  photo: /img/person.png
   email: bjorn@constructors.nl
   github: https://github.com/expleo
   twitter: https://twitter.com/bjornheesakkers
   linkedin: http://nl.linkedin.com/pub/bjorn-heesakkers
   skills:
     - Business development, customer experience and sales are some of the things Bjorn knows.
-- name: Rico van Genugten
+- shortname: rico
+  name: Rico van Genugten
   title: Jack of all Trades
-  photo: /img/person.png
   email: rico@constructors.nl
   github: https://github.com/ricovangenugten
   twitter: https://twitter.com/tete_de_moine
   linkedin: http://nl.linkedin.com/in/ricovangenugten
   skills:
     - Not only does he know how to drive a car, he also knows how to program one. In the world.
-- name: John Roijackers
+- shortname: john
+  name: John Roijackers
   title: Hardcore Developer
-  photo: /img/person.png
   email: john@constructors.nl
   github: https://github.com/jroijackers
   twitter:
   linkedin: http://nl.linkedin.com/in/jroijackers
   skills:
     - When it comes to his software development skills and music preference, John can be described as hardcore.
-- name: Joris van Rooij
+- shortname: joris
+  name: Joris van Rooij
   title: DevOps Connaisseur
-  photo: /img/person.png
   email: joris@constructors.nl
   github: https://github.com/jorrizza
   twitter: https://github.com/jorrizza

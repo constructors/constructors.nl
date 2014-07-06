@@ -20,7 +20,7 @@ todo: Add pagination when we've got plenty of posts
         <div class="blog-excerpt">
           <blockquote>
             {{ post.excerpt }}
-            <small>{% t blog.on %} {% include date.html date=post.date %} {% t blog.in %} {% t post.lang %} {% t blog.by %} <cite>{{ post.author }}</cite>
+            <small>{% t blog.on %} {% include date.html date=post.date %} {% t blog.in %} {% t post.lang %} {% t blog.by %} <cite>{{ post.author | capitalize }}</cite>
             </small>
           </blockquote>
         </div>

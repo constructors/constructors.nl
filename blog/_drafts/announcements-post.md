@@ -1,7 +1,7 @@
 ---
 title: Announcements Post
 lang: en
-author: Joris
+author: rico
 category: announcements
 ---
 

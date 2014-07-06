@@ -1,7 +1,7 @@
 ---
 title: Operations Post
 lang: en
-author: Joris
+author: joris
 category: operations
 image: spaghetti.jpg
 attribution: poppet with a camera
