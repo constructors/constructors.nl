@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/blog/feed.xml">
 
-    <title>{{ site.data.site.title }} - {{ page.title }}</title>
+    <title>{{ site.data.site.title }} - {% include title.html title=page.title %}</title>
 
     <link href="/css/style.css" rel="stylesheet">
     <link href="//cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.css" rel="stylesheet">

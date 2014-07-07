@@ -1,39 +1,17 @@
 ---
 layout: page
-title: About us
+title: titles.about
 ---
 
 <section class="au-intro">
   <div class="row">
     <div class="col-md-6 story">
-      <p class="tagline">
-        <b>
-          Constructors puts a group of ICT professionals together until there is
-          nothing left to innovate.
-        </b>
-        In other words, you will need to bring one hell of an army to keep us
-        from doing what we do best.
-      </p>
-      <p>
-        Before Constructors became a fact, we worked together on web software
-        projects for several years. <a href="http://www.oppas.nl/">Oppas.nl</a>
-        and <a href="http://mediaklapper.nl/">Mediaklapper</a> are among the
-        projects we worked on. Because we wanted to share the innovative
-        chemistry between us, we founded Constructors.
-      </p>
-      <p>
-        Nowadays we work on a great variety of projects, helping businesses
-        succeed wherever we can.
-      </p>
-      <p>
-        We strive to expand our projects into increasingly diverse markets in
-        the near future. Data science, embedded systems and security.
-      </p>
+      {% tf about/about.html %}
     </div>
     <div class="col-md-6 office">
       <img src="/img/pand.jpg" class="img-rounded img-responsive" alt="Office">
       <div class="overlay">
-        <h3>Where we work our magic</h3>
+        <h3>{% t about.workplace %}</h3>
       </div>
     </div>
   </div>
@@ -45,7 +23,7 @@ title: About us
   <div class="row">
     {% for constructor in site.data.constructors %}
     <div class="col-md-3 constructor">
-      <img alt="Photo of" src="/img/heads/{{ constructor.shortname }}.jpg" class="img-circle img-responsive">
+      <img alt="{{ constructor.name }}" src="/img/heads/{{ constructor.shortname }}.jpg" class="img-circle img-responsive">
       <div class="name">
         <h3>{{ constructor.name }}</h3>
         <small>{{ constructor.title }}</small>
@@ -53,7 +31,13 @@ title: About us
       <p class="social">
         {% include socialmedialinks.html constructor=constructor %}
       </p>
-      {% for skill in constructor.skills %}
+      {% case site.lang %}
+      {% when 'nl' %}
+      {% assign skills = constructor.skills.nl %}
+      {% when 'en' %}
+      {% assign skills = constructor.skills.en %}
+      {% endcase %}
+      {% for skill in skills %}
       <p>
         {{ skill }}
       </p>

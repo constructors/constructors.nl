@@ -6,7 +6,10 @@
   twitter: https://twitter.com/bjornheesakkers
   linkedin: http://nl.linkedin.com/pub/bjorn-heesakkers
   skills:
-    - Business development, customer experience and sales are some of the things Bjorn knows.
+    en:
+      - Business development, customer experience and sales are some of the things Bjorn knows.
+    nl:
+      - Business development, customer experience and sales are some of the things Bjorn knows.
 - shortname: rico
   name: Rico van Genugten
   title: Jack of all Trades
@@ -15,7 +18,10 @@
   twitter: https://twitter.com/tete_de_moine
   linkedin: http://nl.linkedin.com/in/ricovangenugten
   skills:
-    - Not only does he know how to drive a car, he also knows how to program one. In the world.
+    en:
+      - Not only does he know how to drive a car, he also knows how to program one. In the world.
+    nl:
+      - Not only does he know how to drive a car, he also knows how to program one. In the world.
 - shortname: john
   name: John Roijackers
   title: Hardcore Developer
@@ -24,7 +30,10 @@
   twitter:
   linkedin: http://nl.linkedin.com/in/jroijackers
   skills:
-    - When it comes to his software development skills and music preference, John can be described as hardcore.
+    en:
+      - When it comes to his software development skills and music preference, John can be described as hardcore.
+    nl:
+      - When it comes to his software development skills and music preference, John can be described as hardcore.
 - shortname: joris
   name: Joris van Rooij
   title: DevOps Connaisseur
@@ -33,4 +42,7 @@
   twitter: https://github.com/jorrizza
   linkedin: http://nl.linkedin.com/in/jorrizza
   skills:
-    - Joris is a DevOps connaisseur. That is also the only word he knows in French.
+    en:
+      - Joris is a DevOps connaisseur. That is also the only word he knows in French.
+    nl:
+      - Joris is een DevOps connaisseur. That is also the only word he knows in French.

@@ -23,6 +23,13 @@ menu:
   about: About
   contact: Contact
   blog: Blog
+titles:
+  home: Software Engineers from Eindhoven
+  about: About us
+  contact: Contact
+  blog: Blog
+about:
+  workplace: Where we work our magic
 blog:
   by: by
   in: in

@@ -6,7 +6,7 @@ body: other-page
   <div class="container">
     <div class="wow img-rounded">
       <h1>
-        <a href=".">{{ page.title }}</a>
+        <a href=".">{% include title.html title=page.title %}</a>
       </h1>
       <p class="meta">
         {% capture cattrans %}blog.categories.{{ page.category }}{% endcapture %}
