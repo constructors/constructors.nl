@@ -22,3 +22,10 @@
 {% else %}
 <i class="fa fa-linkedin-square"></i>
 {% endif %}
+{% if include.constructor.googleplus %}
+<a href="{{ include.constructor.googleplus }}" title="Google Plus" rel="author">
+  <i class="fa fa-google-plus-square"></i><span class="hidden">{{ include.constructor.name }}</span>
+</a>
+{% else %}
+<i class="fa fa-google-plus-square"></i>
+{% endif %}

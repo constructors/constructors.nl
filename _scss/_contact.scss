@@ -1,9 +1,17 @@
-.contact-text ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
+.contact-text {
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 2em 0px 0px 0px;
+  }
 }
 
 .contact-map {
   height: 400px;
+}
+
+.contact-list {
+  i {
+    width: 15px;
+  }
 }
