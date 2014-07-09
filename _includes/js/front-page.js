@@ -1,5 +1,5 @@
 $(function () {
-  function shuffle (array) {
+  var shuffle = function(array) {
     // Fisher-Yates shuffle
     var tempValue, rndIndex, curIndex = images.length;
 
@@ -11,7 +11,7 @@ $(function () {
       array[rndIndex] = tempValue;
     }
     return array;
-  }
+  };
 
   var images = new Array();
   var nr_images = 10;

@@ -1,0 +1,31 @@
+<a href="mailto:{{ include.constructor.email }}" title="Email">
+  <i class="fa fa-envelope"></i>
+</a>
+{% if include.constructor.github %}
+<a href="{{ include.constructor.github }}" title="Github">
+  <i class="fa fa-github-square"></i>
+</a>
+{% else %}
+<i class="fa fa-github-square"></i>
+{% endif %}
+{% if include.constructor.twitter %}
+<a href="{{ include.constructor.twitter }}" title="Twitter">
+  <i class="fa fa-twitter-square"></i>
+</a>
+{% else %}
+<i class="fa fa-twitter-square"></i>
+{% endif %}
+{% if include.constructor.linkedin %}
+<a href="{{ include.constructor.linkedin }}" title="LinkedIn">
+  <i class="fa fa-linkedin-square"></i>
+</a>
+{% else %}
+<i class="fa fa-linkedin-square"></i>
+{% endif %}
+{% if include.constructor.googleplus %}
+<a href="{{ include.constructor.googleplus }}?rel=author" title="Google Plus">
+  <i class="fa fa-google-plus-square"></i><span class="hidden">{{ include.constructor.name }}</span>
+</a>
+{% else %}
+<i class="fa fa-google-plus-square"></i>
+{% endif %}

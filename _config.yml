@@ -1,9 +1,13 @@
 name: Constructors
+url: http://www.constructors.nl
+rss_path: /blog/
+rss_name: feed.xml
 markdown: redcarpet
 highlighter: pygments
 permalink: /blog/:year/:month/:day/:title
 encoding: UTF-8
 timezone: Europe/Amsterdam
+languages: ["en", "nl"]
 sass:
   sass_dir: _scss
   style: :compressed
@@ -14,3 +18,13 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - README.md
+defaults:
+  -
+    scope:
+      path: "blog"
+      type: "post"
+    values:
+      category: "default"
+      layout: "post"
+      image: "none"
+      attribution: "public domain"

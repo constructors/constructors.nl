@@ -5,7 +5,7 @@ body: other-page
 <section class="content">
   <div class="container">
     <h1>
-      {{ page.title }}
+      {% include title.html title=page.title %}
     </h1>
 
     {{ content }}

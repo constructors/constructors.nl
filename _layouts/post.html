@@ -2,13 +2,55 @@
 layout: default
 body: other-page
 ---
+<section class="blog-intro backstretched-background category-{{ page.category }}"{% if page.image != 'none' %} data-background="/img/blog/{{ page.image }}"{% endif %}>
+  <div class="container">
+    <div class="wow img-rounded">
+      <h1>
+        <a href=".">{% include title.html title=page.title %}</a>
+      </h1>
+      <p class="meta">
+        {% capture cattrans %}blog.categories.{{ page.category }}{% endcapture %}
+        <span class="label category-label category-{{ page.category }}">{% t cattrans %}</span>
+        {% t blog.on %} {% include date.html date=page.date %} {% t blog.in %} {% t page.lang %} {% t blog.by %} {{ page.author | capitalize }}
+      </p>
+
+      <div class="excerpt">
+        {{ page.excerpt }}
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-intro-footer">
+    <a name="content"></a>
+    <div class="down-arrow">
+      <a href="#content">
+        <i class="fa fa-angle-double-down"></i>
+      </a>
+    </div>
+  </div>
+
+  {% if page.image != 'none' %}
+  <div class="attribution">
+    {% t blog.photo %}: {{ page.attribution }}
+  </div>
+  {% endif %}
+</section>
+
 <section class="content">
   <div class="container">
-    <h2>{{ page.title }}</h2>
-    <p class="meta">{{ page.date | date_to_string }} by {{ page.author}}</p>
-
-    <div class="post">
-      {{ content }}
-    </div>
+    <div class="row">
+      <div class="col-md-9 col-lg-10 blog-post">
+        {{ content }}
+      </div>
+      <div class="col-md-3 col-lg-2 blog-author">
+        <img class="img-responsive img-circle" src="/img/heads/{{ page.author }}.jpg" alt="{{ page.author | capitalize }}">
+        {% for constructor in site.data.constructors %}{% if constructor.shortname == page.author %}
+        <ul>
+          <li>{{ constructor.name }}</li>
+          <li>{{ constructor.title }}</li>
+          <li>{% include socialmedialinks.html constructor=constructor %}</li>
+        </ul>
+        {% endif %}{% endfor%}
+      </div>
   </div>
 </section>

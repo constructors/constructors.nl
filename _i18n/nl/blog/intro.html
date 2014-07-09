@@ -1,0 +1,7 @@
+<p>
+  We schrijven zo nu en dan wat op ons blog. De volgende onderwerpen komen aan bod:
+  {% for cat in site.data.blog.categories %}
+  {% capture cattrans %}blog.categories.{{ cat }}{% endcapture %}
+  {% if forloop.last %}en {% endif %}<span class="label category-label category-{{ cat }}">{% t cattrans %}</span>
+  {% endfor %}.
+</p>

@@ -1,36 +1,52 @@
-- name: Bjorn Heesakkers
+- shortname: bjorn
+  name: Bjorn Heesakkers
   title: Business Developer
-  photo: /img/person.png
   email: bjorn@constructors.nl
   github: https://github.com/expleo
   twitter: https://twitter.com/bjornheesakkers
   linkedin: http://nl.linkedin.com/pub/bjorn-heesakkers
+  googleplus: https://plus.google.com/100736652449284023151/
   skills:
-    - Business development, customer experience and sales are some of the things Bjorn knows.
-- name: Rico van Genugten
+    en:
+      - Business development, customer experience and sales are some of the things Bjorn knows.
+    nl:
+      - Business development, customer experience en project management zijn zaken waar Bjorn verstand van heeft.
+- shortname: rico
+  name: Rico van Genugten
   title: Jack of all Trades
-  photo: /img/person.png
   email: rico@constructors.nl
   github: https://github.com/ricovangenugten
   twitter: https://twitter.com/tete_de_moine
   linkedin: http://nl.linkedin.com/in/ricovangenugten
+  googleplus:
   skills:
-    - Not only does he know how to drive a car, he also knows how to program one. In the world.
-- name: John Roijackers
+    en:
+      - Not only does he know how to drive a car, he also knows how to program one. In the world.
+    nl:
+      - Rico kan niet alleen een auto besturen, hij weet zelfs hoe hij er een moet programmeren.
+- shortname: john
+  name: John Roijackers
   title: Hardcore Developer
-  photo: /img/person.png
   email: john@constructors.nl
   github: https://github.com/jroijackers
   twitter:
   linkedin: http://nl.linkedin.com/in/jroijackers
+  googleplus:
   skills:
-    - When it comes to his software development skills and music preference, John can be described as hardcore.
-- name: Joris van Rooij
+    en:
+      - When it comes to his software development skills and music preference, John can be described as hardcore.
+    nl:
+      - Als het op development skills en muziekvoorkeur aankomt, kan John enkel als hardcore omschreven worden.
+- shortname: joris
+  name: Joris van Rooij
   title: DevOps Connaisseur
-  photo: /img/person.png
   email: joris@constructors.nl
   github: https://github.com/jorrizza
   twitter: https://github.com/jorrizza
   linkedin: http://nl.linkedin.com/in/jorrizza
+  googleplus:
   skills:
-    - Joris is a DevOps connaisseur. That is also the only word he knows in French.
+    en:
+      - Joris is a DevOps connaisseur. That is also the only word he knows in French.
+    nl:
+      - Joris is een DevOps connaisseur. Dat is ook het enige woord Frans dat hij spreekt.

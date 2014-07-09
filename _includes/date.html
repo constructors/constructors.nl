@@ -1,0 +1,6 @@
+{% assign month = include.date | date: "months.m%-m" %}
+{% if site.lang == 'nl' %}
+{{ include.date | date: "%-d" }} {% t month %} {{ include.date | date: "%Y" }}
+{% else %}
+{% t month %} {{ include.date | date: "%-d" }}, {{ include.date | date: "%Y" }}
+{% endif %}

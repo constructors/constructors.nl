@@ -1,0 +1,14 @@
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  {% if site.lang == "nl" %}
+  Nederlands
+  {% else %}
+  English
+  {% endif %}
+  <i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu">
+  <li>
+    <a href="{{ site.baseurl_root }}{{ page.url }}">English</a>
+    <a href="{{ site.baseurl_root }}/nl{{ page.url }}">Nederlands</a>
+  </li>
+</ul>

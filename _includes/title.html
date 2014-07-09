@@ -1,0 +1,5 @@
+{% if include.title contains 'titles.' %}
+{% t include.title %}
+{% else %}
+{{ include.title }}
+{% endif %}

@@ -1,0 +1,44 @@
+---
+en: Engels
+nl: Nederlands
+months:
+  m1: januari
+  m2: februari
+  m3: maart
+  m4: april
+  m5: mei
+  m6: juni
+  m7: juli
+  m8: augustus
+  m9: september
+  m10: oktober
+  m11: november
+  m12: december
+footer:
+  github: Vind ons op Github
+  twitter: Volg ons op Twitter
+  linkedin: Volg ons op Linkedin
+menu:
+  home: Home
+  about: Over
+  contact: Contact
+  blog: Blog
+titles:
+  home: Software Engineers uit Eindhoven
+  about: Over ons
+  contact: Contact
+  blog: Blog
+about:
+  workplace: Dit is waar het gebeurt
+blog:
+  by: door
+  in: in het
+  "on": Op
+  photo: Foto
+  categories:
+    development: ontwikkeling
+    operations: beheer
+    management: projectmanagement
+    marketing: online marketing
+    announcements: bedrijfsnieuws
+    default: andere zaken

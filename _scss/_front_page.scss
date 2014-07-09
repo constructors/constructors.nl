@@ -13,14 +13,16 @@ body.front-page {
     .text-container {
       max-width: 700px;
       padding: 10px;
-      background-color: rgba(0, 0, 0, 0.2);
+      background-color: rgba(0, 0, 0, 0.3);
       /* vertical align hack */
       position: relative;
       top: 50%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
       transform: translateY(-50%);
-    /*/ vertical align hack */
+      /*/ vertical align hack */
     }
 
     h1 {
