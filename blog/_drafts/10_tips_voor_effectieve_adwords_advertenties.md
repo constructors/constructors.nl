@@ -127,3 +127,10 @@ dat de bezoeker op een pagina terecht gaat komen die gaat over een goedkope
 koelkast. Voor de bezoeker kan het bij de bovenste advertentie ook lijken
 alsof hij naar de homepage wordt gestuurd. 
 
+Concluderend, gebruik als het kan de keywords ook in de display-URL's. Google
+maakt deze woorden vet, waardoor de advertentie meer opvalt. Daarnaast heeft 
+de bezoeker het idee dat hij naar een interessante pagina gaat.
+
+### 4. Gebruik prijzen, promoties en aanbiedingen in uw advertenties ###
+
+### 5. Gebruik tenminste &eacute;&eacute;n van uw keywords in uw advertenties ###
