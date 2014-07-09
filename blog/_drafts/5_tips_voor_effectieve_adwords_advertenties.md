@@ -8,7 +8,7 @@ attribution: Yoshinari Yoshikawa
 ---
 
 Als u Adwords voor uw bedrijf gebruikt om klanten te trekken, heeft u vast
-al gemerkt dat hoe u de tekst van uw advertenties structureert een belangrijke
+al gemerkt dat de tekst van uw advertenties structureert een belangrijke
 rol speelt in het succes van uw Adwords campagnes.
 
 Ook al gebruikt u de beste keywords in uw campagnes, toch kan
