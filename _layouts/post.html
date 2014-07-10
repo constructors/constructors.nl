@@ -39,9 +39,11 @@ body: other-page
 <section class="content">
   <div class="container">
     <div class="row">
-      <div class="col-md-9 col-lg-10 blog-post">
+      <div class="col-md-1 col-lg-1"></div>
+      <div class="col-md-7 col-lg-8 blog-post">
         {{ content }}
       </div>
+      <div class="col-md-1 col-lg-1"></div>
       <div class="col-md-3 col-lg-2 blog-author">
         <img class="img-responsive img-circle" src="/img/heads/{{ page.author }}.jpg" alt="{{ page.author | capitalize }}">
         {% for constructor in site.data.constructors %}{% if constructor.shortname == page.author %}
