@@ -7,29 +7,31 @@ image: market_place.jpg
 attribution: Yoshinari Yoshikawa
 ---
 
-Als u Adwords voor uw bedrijf gebruikt om klanten te trekken, heeft u vast
-al gemerkt dat de tekst van uw advertenties structureert een belangrijke
-rol speelt in het succes van uw Adwords campagnes.
+Gebruikt u ook Adwords voor uw marketingcampagnes?
+
+Dan heeft u vast gemerkt dat de tekst van uw advertenties structureert een
+belangrijke rol speelt in het succes van uw Adwords campagnes.
 
 Ook al gebruikt u de beste keywords in uw campagnes, toch kan
 het zijn dat de concurrentie u verslaat.
 
 We vergeten vaak dat de daadwerkelijke tekst die in een advertentie staat
 een grote impact kan hebben op hoe goed er geklikt wordt op een advertentie. Hoe
-sterker uw tekst, hoe meer er wordt doorgeklikt, des te meer bezoekers uw website
-zal hebben.
+sterker uw tekst, hoe meer er wordt doorgeklikt, des te meer bezoekers uw
+website zal hebben.
 
-Om deze reden heb ik 10 tips om betere advertenties te schrijven verzameld:
+Om deze reden heb ik 10 tips om effectieve Adwords advertenties te schrijven
+verzameld:
 
 ### 1. Verwerk een "call-to-action" in uw advertentie. ###
 
 Veel adverteerders stoppen geen call-to-action in hun Adwords advertenties.
-Een call-to-action probeert bezoekers over te halen om op uw advertentie klikken.
-Een bezoeker wil namelijk graag weten wat hij er mee wint als hij op uw advertentie
-klikt. Hij heeft een pagina voor zijn neus met vele advertenties en u bent u
-hier met uw advertentie maar een onderdeel van. Dus als u deze bezoeker wilt
-overhalen uw website te bezoeken, dient u hem te vertellen wat hij er mee wint
-als hij uw website bezoekt.
+Een call-to-action probeert bezoekers over te halen om op uw advertentie
+klikken. Een bezoeker wil namelijk graag weten wat hij er mee wint als hij op 
+uw advertentie klikt. Hij heeft een pagina voor zijn neus met vele advertenties
+en u bent u hier met uw advertentie maar een onderdeel van. Dus als u deze
+bezoeker wilt overhalen uw website te bezoeken, dient u hem te vertellen wat hij
+er mee wint als hij uw website bezoekt.
 
 Stel dat iemand opzoek is om een reisverzekering af te sluiten. Deze persoon
 wil direct weten wat het hem gaat kosten en hoe lang het duurt om deze
@@ -37,27 +39,28 @@ verzekering af te sluiten.
 
 Hier zijn enkele voorbeelden van advertenties met een goede call-to-action:
 
-![Alt text](/img/posts/call-to-action.png)
-![Alt text](/img/posts/call-to-action2.png)
+![Call-to-Action Independer](/img/posts/call-to-action.png)
+![Call-to-Action Wehkamp](/img/posts/call-to-action2.png)
 
-Wat betreft de advertentie aan de linkerkant weet de bezoeker dat hij dat hij
+Wat betreft de advertentie aan de linkerkant weet de bezoeker dat hij
 verschillende verzekeringen kan vergelijken en direct online kan afsluiten.
 
-De advertentie rechts benadrukt ook de juiste zaken: de bezoeker kan direct
+De advertentie rechts benadrukt ook de juiste zaken: De bezoeker kan direct
 bestellen en als deze voor 22:00 uur bestelt, is het morgen al in huis.
-De advertentie rechts is nog net iets beter, de "Bestel n&uacute;" is een expliciete
-call-to-action.
+De advertentie rechts is nog net iets beter, de "Bestel n&uacute;" is een
+expliciete call-to-action.
 
-Zoals u merkt aan de adverentie-teksten probeert men voordelen te koppelen aan
+Zoals u merkt aan de advertentie-teksten probeert men voordelen te koppelen aan
 een actie. Daarmee probeert men de bezoeker te over te halen om te klikken.
 
-Door een call-to-action toe te voegen klikken dus meer mensen op uw advertenties.
+Door een call-to-action toe te voegen klikken dus meer mensen op uw
+advertenties.
 Om in Adwords termen te spreken, dit verhoogt uw Click-Through-Rate (CTR).
 
 Hier nog 2 voorbeelden van advertenties:
 
-![Alt text](/img/posts/ad-without-call-to-action.png)
-![Alt text](/img/posts/ad-without-call-to-action2.png)
+![Ad zonder call-to-action](/img/posts/ad-without-call-to-action.png)
+![Ad zonder call-to-action 2](/img/posts/ad-without-call-to-action2.png)
 
 Ziet u een call-to-action in &eacute;&eacute;n van deze advertenties?
 Stel dat iemand opzoek is naar informatie over kinderopvang, wordt de bezoeker
@@ -95,19 +98,19 @@ zou men op een later tijdstip nog eens zoeken op dezelfde term.
 
 Het gevolg van dit kopieergedrag is dat veel advertenties op elkaar lijken:
 
-![Alt text](/img/posts/copied-ads.png)
+![Gekopieerde ads](/img/posts/copied-ads.png)
 
-Hoe zorgt u ervoor dat u juist wel opvalt? Simpel: Gebruik juist een tekst die anders
-is dan die van uw concurrent. Hierdoor kiest en herkent een bezoeker uw advertentie
-gemakkelijker, wat leidt tot meer bezoekers op uw website.
+Hoe zorgt u ervoor dat u juist wel opvalt? Simpel: Gebruik juist een tekst die
+anders is dan die van uw concurrent. Hierdoor kiest en herkent een bezoeker uw
+advertentie gemakkelijker, wat leidt tot meer bezoekers op uw website.
 
 ### 3. De display-URL is een belangrijk onderdeel van uw advertentie ###
 
 De display-URL is de link die verschijnt onder uw advertentie. Voordeel is dat 
 veel adverteerders hier niet op letten. Hier valt dus nog veel te winnen.
 
-Vooral omdat de display-URL nog best een belangrijke rol speelt in het klikgedrag
-van een consument.
+Vooral omdat de display-URL nog best een belangrijke rol speelt in het
+klikgedrag van een consument.
 
 Wat handig is aan de display-URL is dat u zelf kunt kiezen wat er komt te staan,
 zolang het domein van de display-URL maar overeenkomt met het domein van uw
@@ -115,7 +118,7 @@ website.
 
 Neem nu het volgende voorbeeld, welke advertentie valt het meeste op? 
 
-![Alt text](/img/posts/display-urls.png)
+![Ads met goede display-urls](/img/posts/display-urls.png)
 
 Een bijkomend voordeel is dat Google de zoektermtekst benadrukt door deze vet 
 te maken. Dit gebeurt ook bij de display-URL, waardoor de advertentie nog meer
@@ -124,8 +127,9 @@ in het oog valt.
 Los van het feit dat de bovenste adverentie geen call-to-action gebruikt, is de
 display-URL is niet heel expliciet. Bij de onderste advertentie is het duidelijk
 dat de bezoeker op een pagina terecht gaat komen die gaat over een goedkope
-koelkast. Voor de bezoeker kan het bij de bovenste advertentie ook lijken
-alsof hij naar de homepage wordt gestuurd. 
+koelkast. Daarnaast kan het voor de bezoeker bij de bovenste advertentie ook
+lijken alsof hij naar de homepage wordt gestuurd in plaats van naar een
+relevante pagina.
 
 Concluderend, gebruik als het kan de keywords ook in de display-URL's. Google
 maakt deze woorden vet, waardoor de advertentie meer opvalt. Daarnaast heeft 
@@ -133,4 +137,36 @@ de bezoeker het idee dat hij naar een interessante pagina gaat.
 
 ### 4. Gebruik prijzen, promoties en aanbiedingen in uw advertenties ###
 
+Consumenten willen graag weten waar ze aan toe zijn. Daarnaast shoppen 
+consumenten op internet vaak rond voor de beste deals. Internet is de plek
+waar een consument bekijkt of hij wel een goede prijs betaalt voor een product.
+
+Een slimme truc voor het verbeteren van de doorklikken op uw advertentie is
+daarom om aanbiedingen, prijzen en promoties in uw advertenties op te nemen.
+
+U geeft de consument daarmee de kracht om een beslissing te maken. En het zou mooi
+zijn als hij dat bij u doet.
+
+Wat daarnaast goed werkt is een idee van schaarste cre&euml;ren: De aanbieding
+is maar voor beperkte tijd geldig of zolang de voorraad strekt.
+
+Hier een voorbeeld van een advertentie met een goede aanbieding:
+
+![Ad met een goede aanbieding](/img/posts/limited-offer.png)
+
+Deze adverteerder heeft een aanbieding van 20% korting. De schaarste wordt 
+hier ook gecre&euml;erd: Alleen vandaag kan de consument gratis zijn bestelling
+verzonden krijgen. Dit helpt om de consument over de streep te trekken om zijn
+bestelling juist vandaag te plaatsen.
+
+Hieronder nog een voorbeeld van een advertentie met een aanbieding:
+
+![Ad met aanbieding zonder schaarste](/img/posts/offer-without-scarcity.png)
+
+In deze advertentie ontbreekt het schaarste stuk: Het maakt deze advertentie
+daarom n&eacute;t iets minder effectief dan de vorige.
+
 ### 5. Gebruik tenminste &eacute;&eacute;n van uw keywords in uw advertenties ###
+
+
+
