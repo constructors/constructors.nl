@@ -15,6 +15,9 @@
 
     <title>{{ site.data.site.title }} - {% include title.html title=page.title %}</title>
 
+    <meta property="og:image" content="/img/blog/{{ page.image }}">
+    <meta property="og:title" content="{{ page.title }}">
+
     <link href="/css/style.css" rel="stylesheet">
     <link href="//cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.css" rel="stylesheet">
     {% if page.url == "/contact/index.html" %}
