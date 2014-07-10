@@ -7,7 +7,7 @@ highlighter: pygments
 permalink: /blog/:year/:month/:day/:title
 encoding: UTF-8
 timezone: Europe/Amsterdam
-languages: ["en", "nl"]
+languages: ["nl", "en"]
 sass:
   sass_dir: _scss
   style: :compressed
