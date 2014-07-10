@@ -1,0 +1,25 @@
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+{% if page.image %}
+  <meta property="og:image" content="{{ site.url }}/img/blog/thumb/{{ page.image }}">
+{% else %}
+  <meta property="og:image" content="{{ site.url }}/img/logo.png">
+{% endif %}
+{% if page.url contains "/blog/" %}
+  <meta property="og:type" content="article">
+  {% if page.author %}
+    <meta property="og:article:author:username" content="{{ page.author }}">
+    {% for constructor in site.data.constructors %}{% if constructor.shortname == page.author %}
+      <meta property="og:article:author:first_name" content="{{ constructor.name }}">
+      <meta property="og:article:author:last_name" content="{{ constructor.title }}">
+    {% endif %}{% endfor %}
+  {% endif %}
+  {% if page.category %}
+    {% capture cattrans %}blog.categories.{{ page.category }}{% endcapture %}
+    <meta property="og:article:section" content="{% t cattrans %}">
+  {% endif %}
+{% else%}
+  <meta property="og:type" content="website">
+{% endif %}
+
+{% capture site_title %}{% include title.html title=page.title %}{% endcapture %}
+<meta property="og:title" content="{{ site_title | strip_newlines }}">

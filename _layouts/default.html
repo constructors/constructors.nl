@@ -5,18 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ site.data.site.description }}">
     <meta name="author" content="Constructors">
+    {% include opengraph.html %}
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/blog/feed.xml">
     {% if site.lang == "en" %}
-    <link rel="alternate" hreflang="nl" href="{{ site.baseurl_root }}{{ page.url }}">
+    <link rel="alternate" hreflang="nl" href="{{ site.url }}{{ site.baseurl_root }}{{ page.url }}">
     {% else %}
-    <link rel="alternate" hreflang="en" href="{{ site.baseurl_root }}/en{{ page.url }}">
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl_root }}/en{{ page.url }}">
     {% endif %}
 
     <title>{{ site.data.site.title }} - {% include title.html title=page.title %}</title>
-
-    <meta property="og:image" content="/img/blog/{{ page.image }}">
-    <meta property="og:title" content="{{ page.title }}">
 
     <link href="/css/style.css" rel="stylesheet">
     <link href="//cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.css" rel="stylesheet">
