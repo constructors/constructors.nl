@@ -219,5 +219,6 @@ schrijf ik een artikel over A/B-testen in Google Adwords. Houd ons blog daarom
 in de gaten.
 
 Heeft u nog vragen of opmerkingen naar aanleiding van deze tips?
+
 Stuur me dan gerust een [e-mail](mailto:bjorn@constructors.nl).
 
