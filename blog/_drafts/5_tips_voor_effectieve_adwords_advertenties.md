@@ -23,7 +23,7 @@ website zal hebben.
 Om deze reden heb ik 10 tips om effectieve Adwords advertenties te schrijven
 verzameld:
 
-### 1. Verwerk een "call-to-action" in uw advertentie. ###
+## 1. Verwerk een "call-to-action" in uw advertentie. ##
 
 Veel adverteerders stoppen geen call-to-action in hun Adwords advertenties.
 Een call-to-action probeert bezoekers over te halen om op uw advertentie
@@ -82,7 +82,7 @@ de bezoeker vinden als deze er eenmaal is? Op basis van deze informatie kunt
 u een goede call-to-action schrijven.
 
 
-### 2. Zorg ervoor dat u opvalt tussen uw concurrenten ###
+## 2. Zorg ervoor dat u opvalt tussen uw concurrenten ##
 
 Veel mensen kopieren advertenties van concurrenten om ervoor te zorgen dat
 hun advertenties beter presteren. Ik denk dat dat niet de juiste aanpak is.
@@ -104,7 +104,7 @@ Hoe zorgt u ervoor dat u juist wel opvalt? Simpel: Gebruik juist een tekst die
 anders is dan die van uw concurrent. Hierdoor kiest en herkent een bezoeker uw
 advertentie gemakkelijker, wat leidt tot meer bezoekers op uw website.
 
-### 3. De display-URL is een belangrijk onderdeel van uw advertentie ###
+## 3. De display-URL is een belangrijk onderdeel van uw advertentie ##
 
 De display-URL is de link die verschijnt onder uw advertentie. Voordeel is dat 
 veel adverteerders hier niet op letten. Hier valt dus nog veel te winnen.
@@ -135,7 +135,7 @@ Concluderend, gebruik als het kan de keywords ook in de display-URL's. Google
 maakt deze woorden vet, waardoor de advertentie meer opvalt. Daarnaast heeft 
 de bezoeker het idee dat hij naar een interessante pagina gaat.
 
-### 4. Gebruik prijzen, promoties en aanbiedingen in uw advertenties ###
+## 4. Gebruik prijzen, promoties en aanbiedingen in uw advertenties ##
 
 Consumenten willen graag weten waar ze aan toe zijn. Daarnaast shoppen 
 consumenten op internet vaak rond voor de beste deals. Internet is de plek
@@ -166,7 +166,7 @@ Hieronder nog een voorbeeld van een advertentie met een aanbieding:
 In deze advertentie ontbreekt het schaarste stuk: Het maakt deze advertentie
 daarom n&eacute;t iets minder effectief dan de vorige.
 
-### 5. Gebruik tenminste &eacute;&eacute;n van uw keywords in uw advertenties ###
+## 5. Gebruik tenminste &eacute;&eacute;n van uw keywords in uw advertenties ##
 
 
 
