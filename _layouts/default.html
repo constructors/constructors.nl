@@ -8,10 +8,10 @@
     <meta name="author" content="Constructors">
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/blog/feed.xml">
-    {% if site.lang == "nl" %}
-    <link rel="alternate" hreflang="en" href="{{ site.baseurl_root }}{{ page.url }}">
+    {% if site.lang == "en" %}
+    <link rel="alternate" hreflang="nl" href="{{ site.baseurl_root }}{{ page.url }}">
     {% else %}
-    <link rel="alternate" hreflang="nl" href="{{ site.baseurl_root }}/nl{{ page.url }}">
+    <link rel="alternate" hreflang="en" href="{{ site.baseurl_root }}/en{{ page.url }}">
     {% endif %}
 
     <title>{{ site.data.site.title }} - {% include title.html title=page.title %}</title>
