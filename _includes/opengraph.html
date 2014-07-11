@@ -7,13 +7,6 @@
 {% if page.url contains "/blog/" %}
   <meta property="og:type" content="article">
   <meta proptery="article:published_time" content="{{ page.date | date: '%Y-%m-%d' }}">
-  {% if page.author %}
-    <meta property="author:username" content="{{ page.author }}">
-    {% for constructor in site.data.constructors %}{% if constructor.shortname == page.author %}
-      <meta property="author:first_name" content="{{ constructor.name }}">
-      <meta property="author:last_name" content="{{ constructor.title }}">
-    {% endif %}{% endfor %}
-  {% endif %}
   {% if page.category %}
     {% capture cattrans %}blog.categories.{{ page.category }}{% endcapture %}
     <meta property="article:section" content="{% t cattrans %}">
