@@ -6,16 +6,17 @@
 {% endif %}
 {% if page.url contains "/blog/" %}
   <meta property="og:type" content="article">
+  <meta proptery="article:published_time" content="{{ page.date | date: '%Y-%m-%d' }}">
   {% if page.author %}
-    <meta property="og:article:author:username" content="{{ page.author }}">
+    <meta property="author:username" content="{{ page.author }}">
     {% for constructor in site.data.constructors %}{% if constructor.shortname == page.author %}
-      <meta property="og:article:author:first_name" content="{{ constructor.name }}">
-      <meta property="og:article:author:last_name" content="{{ constructor.title }}">
+      <meta property="author:first_name" content="{{ constructor.name }}">
+      <meta property="author:last_name" content="{{ constructor.title }}">
     {% endif %}{% endfor %}
   {% endif %}
   {% if page.category %}
     {% capture cattrans %}blog.categories.{{ page.category }}{% endcapture %}
-    <meta property="og:article:section" content="{% t cattrans %}">
+    <meta property="article:section" content="{% t cattrans %}">
   {% endif %}
 {% else%}
   <meta property="og:type" content="website">
