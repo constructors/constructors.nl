@@ -125,7 +125,7 @@ te maken. Dit gebeurt ook bij de display-URL, waardoor de advertentie nog meer
 in het oog valt.
 
 Los van het feit dat de bovenste advertentie geen call-to-action gebruikt, is de
-display-URL is niet heel expliciet. Bij de onderste advertentie is het duidelijk
+display-URL niet heel expliciet. Bij de onderste advertentie is het duidelijk
 dat de consument op een pagina terecht gaat komen die gaat over een goedkope
 koelkast. Daarnaast kan het voor de consument bij de bovenste advertentie lijken
 alsof hij naar de homepage wordt gestuurd in plaats van naar een
