@@ -1,4 +1,4 @@
-<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}{% unless page.url contains '.html' %}/{% endunless %}">
 {% if page.image %}
   <meta property="og:image" content="{{ site.url }}/img/blog/thumb/{{ page.image }}">
 {% else %}
