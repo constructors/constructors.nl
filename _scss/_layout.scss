@@ -36,6 +36,10 @@ footer {
   padding: 50px 0;
   background-color: #222;
   color: #ccc;
+  background-image: url(/img/logo-footer.svg);
+  background-repeat: no-repeat;
+  background-position: center 50px;
+  background-size: 200px;
 
   a:link, a:hover, a:visited {
     color: #ccc;
@@ -45,15 +49,17 @@ footer {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+
+    .license {
+      img {
+        margin-top: 1em;
+      }
+    }
   }
 
   @media (min-width: 768px) {
     .contact {
       text-align: left;
-    }
-
-    .legal {
-      text-align: center;
     }
 
     .smedia {
@@ -62,8 +68,10 @@ footer {
   }
 
   @media (max-width: 768px) {
-    .legal {
-      margin: 10px 0;
+    padding-top: 180px;
+
+    .smedia {
+      margin-top: 1em;
     }
   }
 }

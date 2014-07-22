@@ -1,16 +1,10 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm-4 contact">
+      <div class="col-sm-6 contact">
         {% include contact.html %}
       </div>
-      <div class="col-sm-4 legal">
-
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.{{ site.lang }}">
-          <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png">
-        </a> Constructors
-      </div>
-      <div class="col-sm-4 smedia">
+      <div class="col-sm-6 smedia">
         <ul>
           <li>
             <a href="{{ site.data.site.socialmedia.github }}">
@@ -25,6 +19,11 @@
           <li>
             <a href="{{ site.data.site.socialmedia.linkedin }}">
               {% t footer.linkedin %} <i class="fa fa-linkedin-square"></i>
+            </a>
+          </li>
+          <li>
+            <a class="license" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.{{ site.lang }}">
+              <img alt="Creative Commons License" src="/img/creative-commons.png">
             </a>
           </li>
         </ul>
