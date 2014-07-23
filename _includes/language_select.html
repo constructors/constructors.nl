@@ -1,9 +1,9 @@
 {% if site.lang == "nl" %}
-<a href="{{ site.baseurl_root }}/en{{ page.url }}">
+<a href="{{ site.baseurl_root }}/en{{ page.url }}?lang=en">
   <i class="fa fa-language"></i> English
 </a>
 {% else %}
-<a href="{{ site.baseurl_root }}{{ page.url }}">
+<a href="{{ site.baseurl_root }}{{ page.url }}?lang=nl">
   <i class="fa fa-language"></i> Nederlands
 </a>
 {% endif %}
