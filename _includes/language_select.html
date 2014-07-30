@@ -1,9 +1,11 @@
+{% comment %} blog posts do not end with /index.html, breaking content-type detection {% endcomment %}
+{% capture pageurl %}{{ page.url }}{% unless page.url contains '/index.html' %}/index.html{% endunless %}{% endcapture %}
 {% if site.lang == "nl" %}
-<a href="{{ site.baseurl_root }}/en{{ page.url }}?lang=en">
+<a href="{{ site.baseurl_root }}/en{{ pageurl }}?lang=en">
   <i class="fa fa-language"></i> English
 </a>
 {% else %}
-<a href="{{ site.baseurl_root }}{{ page.url }}?lang=nl">
+<a href="{{ site.baseurl_root }}{{ pageurl }}?lang=nl">
   <i class="fa fa-language"></i> Nederlands
 </a>
 {% endif %}
