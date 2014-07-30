@@ -3,8 +3,8 @@ title: Accept-Language redirects with Nginx and Lua
 lang: en
 author: joris
 category: operations
-image: spaghetti.jpg
-attribution: poppet with a camera
+image: flags.jpg
+attribution:  Max Klingensmith
 ---
 
 So you've got your fancy static HTML website in several languages. Now what? Add
@@ -54,6 +54,8 @@ is that this `location` has precedence over our standard `location`, defined
 below.
 
     location = / {
+        default_type text/html;
+
         rewrite_by_lua '
         if ngx.var.cookie_lang == "en" then
             ngx.redirect("/en/")
@@ -62,10 +64,12 @@ below.
             return
         end
 
-        for lang in (ngx.var.http_accept_language .. ","):gmatch("([^,]*),") do
-            if string.sub(lang, 0, 2) == "nl" then
-                ngx.header["Set-Cookie"] = "lang=nl; path=/"
-                return
+        if ngx.var.http_accept_language then
+            for lang in (ngx.var.http_accept_language .. ","):gmatch("([^,]*),") do
+                if string.sub(lang, 0, 2) == "nl" then
+                    ngx.header["Set-Cookie"] = "lang=nl; path=/"
+                    return
+                end
             end
         end
 
@@ -74,7 +78,11 @@ below.
         ';
     }
 
-The little for loop, which we've
+This location has no root. To help nginx determine the content type of the
+response we've added a `default_type`. Normally this is
+`application/octet-stream`, making most browsers present a download instead of
+the page. We also have to check if the `Accept-Language` header is even present
+before trying to parse it. The little for loop, which we've
 [borrowed from Mark](http://stackoverflow.com/a/23432310), is a clever solution
 to parse (parts of) the `Accept-Language` header. The header value is a comma
 separated list of language codes, with an optional preference identifier. Here's
@@ -104,7 +112,8 @@ language preference will be stored.
              index  index.html;
     }
 
-The way we've integrated this in our website can be found in [\_language\_select.html](https://github.com/constructors/constructors.nl/blob/master/_includes/language_select.html).
+The way we've integrated this in our website can be found in
+[\_language\_select.html](https://github.com/constructors/constructors.nl/blob/master/_includes/language_select.html).
 
 So there we go. Simple language selection and redirection with nothing more than
 Nginx and a few lines of Lua code.
