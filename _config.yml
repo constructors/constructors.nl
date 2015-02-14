@@ -22,7 +22,6 @@ defaults:
   -
     scope:
       path: "blog"
-      type: "post"
     values:
       category: "default"
       layout: "post"
