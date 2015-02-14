@@ -11,19 +11,19 @@
       - Business development, customer experience and sales are some of the things Bjorn knows.
     nl:
       - Business development, customer experience en project management zijn zaken waar Bjorn verstand van heeft.
-- shortname: rico
-  name: Rico van Genugten
-  title: Jack of all Trades
-  email: rico@constructors.nl
-  github: https://github.com/ricovangenugten
-  twitter: https://twitter.com/tete_de_moine
-  linkedin: http://nl.linkedin.com/in/ricovangenugten
+- shortname: hans
+  name: Hans de Jong
+  title: In-house Pythonista
+  email: hans@constructors.nl
+  github: https://github.com/Sult
+  twitter:
+  linkedin:
   googleplus:
   skills:
     en:
-      - Not only does he know how to drive a car, he also knows how to program one. In the world.
+      - Turns just about anything into Python. According to folklore, once turned into Python himself.
     nl:
-      - Rico kan niet alleen een auto besturen, hij weet zelfs hoe hij er een moet programmeren.
+      - Zet bijna alles om naar Python. Volgens de overlevering is hij zelf ooit eens Python geweest.
 - shortname: john
   name: John Roijackers
   title: Hardcore Developer
