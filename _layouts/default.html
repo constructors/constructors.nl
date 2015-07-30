@@ -17,9 +17,9 @@
     <title>{{ site.data.site.title }} - {% include title.html title=page.title %}</title>
 
     <link href="/css/style.css" rel="stylesheet">
-    <link href="//cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+    <link href="//cdn.jsdelivr.net/fontawesome/4.4.0/css/font-awesome.css" rel="stylesheet">
     {% if page.url == "/contact/index.html" %}
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/leaflet/0.7.2/leaflet.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.css">
     {% endif %}
 
     <!--[if lt IE 9]>
@@ -36,16 +36,16 @@
 
     {% include footer.html %}
 
-    <script src="//cdn.jsdelivr.net/jquery/2.1.1/jquery.min.js"></script>
-    <script src="//cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="//cdn.jsdelivr.net/jquery.backstretch/2.0.3/jquery.backstretch.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.backstretch/2.0.4/jquery.backstretch.min.js"></script>
 
     {% if page.url == "/index.html" %}
     <script>{% include js/front-page.js %}</script>
     {% endif %}
 
     {% if page.url == "/contact/index.html" %}
-    <script src="//cdn.jsdelivr.net/leaflet/0.7.2/leaflet.js"></script>
+    <script src="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.js"></script>
     <script>{% include js/map.js %}</script>
     {% endif %}
 
