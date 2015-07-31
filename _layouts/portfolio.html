@@ -1,0 +1,27 @@
+---
+layout: default
+body: other-page
+---
+<section class="portfolio-banner backstretched-background" {% if page.image != 'none' %} data-background="/img/portfolio/{{ page.image }}"{% endif %}>
+  <div class="container">
+    <div class="header img-rounded">
+      <h1>
+        <a href=".">{% include title.html title=page.customer %}</a>
+      </h1>
+      <span>
+        {{ page.testimonial }}
+      </span>
+      <div class="text-right">
+        <em>
+          {{ page.credential }}
+        </em>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content">
+  <div class="container">
+    {{ content }}
+  </div>
+</section>
