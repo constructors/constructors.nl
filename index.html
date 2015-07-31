@@ -4,7 +4,7 @@ title: titles.home
 body: front-page
 ---
 
-<div class="backdrop"></div>
+<div class="backdrop backstretched-background" data-background="/img/eindhoven.jpg"></div>
 
 <section class="container eindhoven-header">
   <div class="text-container img-rounded">
@@ -13,17 +13,38 @@ body: front-page
 </section>
 
 <section class="content">
-  <div class="container">
-    {% tf front_page/holy_trinity.html %}
+  {% tf front_page/holy_trinity.html %}
 
-    {% tf front_page/feature_1.html %}
+  {% tf front_page/customers.html %}
 
-    <hr class="visible-xs visible-sm">
-
-    {% tf front_page/feature_2.html %}
-
-    <hr class="visible-xs visible-sm">
-
-    {% tf front_page/feature_3.html %}
+  <div class="backstretched-background" data-background="/img/people-woman-coffee-meeting.jpg">
+    <div class="container">
+      <div class="row feature">
+        <div class="col-md-7">
+          {% tf front_page/feature_1.html %}
+        </div>
+      </div>
+    </div>
   </div>
+  <div class="spacer hidden-xs"></div>
+  <div class="backstretched-background" data-background="/img/laptop-notebook-technology-computer.jpg">
+    <div class="container">
+      <div class="row feature">
+        <div class="col-md-7 col-md-offset-5">
+          {% tf front_page/feature_2.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="spacer hidden-xs"></div>
+  <div class="backstretched-background" data-background="/img/smartphone-friends-internet-connection.jpg">
+    <div class="container">
+      <div class="row feature">
+        <div class="col-md-7">
+          {% tf front_page/feature_3.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="spacer hidden-xs"></div>
 </section>

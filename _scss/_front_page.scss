@@ -1,3 +1,10 @@
+.static-blue-background {
+  background-color: $dark-blue;
+  color: #eee;
+  background-image: url(/img/transparent-square-tiles.png);
+  background-attachment: fixed;
+}
+
 body.front-page {
   .backdrop {
     position: fixed;
@@ -39,13 +46,19 @@ body.front-page {
   }
 
   .content {
+    padding-top: 50px;
     background-color: #eee;
-    padding: 50px 0;
   }
 
   .we-do {
+    margin-bottom: 30px;
+
     h3 {
       text-align: center;
+    }
+
+    .picture {
+      color: $dark-blue;
     }
 
     p {
@@ -54,34 +67,75 @@ body.front-page {
     }
   }
 
-  hr {
-    border-color: #ccc;
-    margin-bottom: -75px;
+  .customers {
+    @extend .static-blue-background;
+
+    padding: 30px 0;
+    text-align: center;
+
+    h3 {
+      color: #eee;
+      margin-bottom: 30px;
+    }
+
+    .customer {
+      margin-top: 10px;
+
+      .logo {
+        background-color: #eee;
+        padding: 5px;
+        border-radius: 50%;
+        width: 130px;
+        height: 130px;
+        margin-bottom: 10px;
+
+        .picture {
+          line-height: 120px;
+        }
+
+        a:link, a:hover, a:active, a:visited {
+          color: #111;
+          text-decoration: none;
+        }
+      }
+
+      blockquote {
+        font-size: 14px;
+        border: 0;
+        footer {
+          color: #eee;
+        }
+      }
+    }
   }
 
   .feature {
     margin-top: 100px;
 
-    a {
-      text-decoration: none;
-    }
-
-    a:hover span {
-      color: #3399f3;
+    > div {
+      @extend .static-blue-background;
+      border-radius: 10px 10px 0 0;
     }
 
     h2 {
       font-size: 50px;
       letter-spacing: -1px;
+      color: #eee;
 
       span {
-        color: #666;
+        color: #ccc;
       }
     }
 
     p {
       padding: 10px 0;
       font-size: 20px;
+      margin: 0;
     }
+  }
+
+  .spacer {
+    @extend .static-blue-background;
+    height: 20px;
   }
 }
