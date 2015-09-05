@@ -2,26 +2,26 @@
 layout: default
 body: other-page
 ---
-<section class="portfolio-banner backstretched-background" {% if page.image != 'none' %} data-background="/img/portfolio/{{ page.image }}"{% endif %}>
+<section class="portfolio-banner backstretched-background"{% if page.image != 'none' %} data-background="/img/portfolio/{{ page.image }}"{% endif %}>
   <div class="container">
-    <div class="header img-rounded">
+    <div class="wow img-rounded">
       <h1>
-        <a href=".">{% include title.html title=page.customer %}</a>
+        <a href=".">{% include title.html title=page.title %}</a>
       </h1>
-      <span>
-        {{ page.testimonial }}
-      </span>
-      <div class="text-right">
-        <em>
+      <blockquote>
+        <p>
+          {{ page.testimonial }}
+        </p>
+        <footer>
           {{ page.credential }}
-        </em>
-      </div>
+        </footer>
+      </blockquote>
     </div>
   </div>
 </section>
 
 <section class="content">
-  <div class="container">
+  <div class="container-fluid blog-post">
     {{ content }}
   </div>
 </section>
