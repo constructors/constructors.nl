@@ -21,7 +21,18 @@ body: other-page
 </section>
 
 <section class="content">
-  <div class="container-fluid blog-post">
-    {{ content }}
+  <div class="portfolio-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>{{ page.header }}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="blog-post portfolio-content">
+    <div class="container">
+      {{ content }}
+    </div>
   </div>
 </section>

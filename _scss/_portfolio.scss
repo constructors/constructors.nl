@@ -20,3 +20,29 @@
     }
   }
 }
+
+.portfolio-header {
+  @extend .static-blue-background;
+  margin-bottom: 1em;
+
+  h2 {
+    margin: 1em 0;
+    color: #EEE;
+  }
+}
+
+.portfolio-content {
+  .thumbnail {
+    @extend .static-blue-background;
+
+    img {
+      width: 100%;
+    }
+
+    .caption p {
+      color: #EEE;
+      margin: 0;
+      font-size: 0.7em;
+    }
+  }
+}

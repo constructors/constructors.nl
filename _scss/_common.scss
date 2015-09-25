@@ -1,3 +1,10 @@
+.static-blue-background {
+  background-color: $dark-blue;
+  color: #EEE;
+  background-image: url(/img/transparent-square-tiles.png);
+  background-attachment: fixed;
+}
+
 .floating-header {
   max-width: 700px;
   padding: 10px;
