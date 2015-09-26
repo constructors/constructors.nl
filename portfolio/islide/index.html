@@ -6,10 +6,19 @@ header: 50.000 foto's per maand over 11 locaties
 ---
 
 <div class="row">
-  <div class="col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5v65vLm4dVc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <div class="col-md-5">
+    <div class="thumbnail">
+      <a href="#" data-toggle="modal" data-target="#modal-video">
+        <img src="/img/portfolio/islide_video.jpg" alt="iSlide Video">
+      </a>
+      <div class="caption">
+        <p>
+          iSlide Promotievideo
+        </p>
+      </div>
+    </div>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-7">
     <p>
       iSlide heeft de innovatieve social media ervaring "iSlide" bedacht. In
       deze interactieve ervaring is het mogelijk om beelden te projecteren in
@@ -84,10 +93,10 @@ header: 50.000 foto's per maand over 11 locaties
   </div>
   <div class="col-md-3">
     <div class="thumbnail">
-      <img src="/img/portfolio/islide_banner.jpg" alt="iSlide experience">
+      <img src="/img/portfolio/islide_glijbaan.jpg" alt="iSlide glijbaan">
       <div class="caption">
         <p>
-          iSlide experience
+          iSlide glijbaan
         </p>
       </div>
     </div>
@@ -99,4 +108,19 @@ header: 50.000 foto's per maand over 11 locaties
         </p>
       </div>
     </div>
+  </div>
 </div>
+
+<div class="modal fade" id="modal-video" aria-labelledby="#modal-video-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modal-video-label">iSlide Video</h4>
+      </div>
+      <div class="modal-body">
+        <iframe type="text/html" class="modal-video" data-src="https://www.youtube.com/embed/5v65vLm4dVc?rel=0&amp;showinfo=0&amp;controls=1&amp;autoplay=1&amp;origin={{ site.baseurl }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
