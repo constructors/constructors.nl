@@ -1,0 +1,31 @@
+.static-blue-background {
+  background-color: $dark-blue;
+  color: #EEE;
+  background-image: url(/img/transparent-square-tiles.png);
+  background-attachment: fixed;
+}
+
+.floating-header {
+  max-width: 700px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  h1 {
+    margin: 0px 0px 7px 0px;
+    color: #EEE;
+    background-color: transparent;
+    text-shadow: 2px 2px #000;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
