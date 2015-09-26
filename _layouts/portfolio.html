@@ -2,19 +2,21 @@
 layout: default
 body: other-page
 ---
-<section class="portfolio-banner backstretched-background"{% if page.image != 'none' %} data-background="/img/portfolio/{{ page.image }}"{% endif %}>
+<section class="portfolio-banner backstretched-background" data-background="/img/portfolio/{{ page.key }}.jpg">
   <div class="container">
     <div class="wow img-rounded">
       <h1>
         <a href=".">{% include title.html title=page.title %}</a>
       </h1>
       <blockquote>
+        {% for customer in site.data.portfolio %}{% if customer.page == page.key %}
         <p>
-          {{ page.testimonial }}
+          {{ customer.testimonial[site.lang] }}
         </p>
         <footer>
-          {{ page.credential }}
+          {{ customer.credential.name }}, {{ customer.credential.position }} {% t portfolio.at %} <cite>{{ customer.credential.company }}</cite>
         </footer>
+        {% endif %}{% endfor %}
       </blockquote>
     </div>
   </div>
@@ -24,8 +26,11 @@ body: other-page
   <div class="portfolio-header">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12 col-md-10">
           <h2>{{ page.header }}</h2>
+        </div>
+        <div class="col-md-2 hidden-xs logo">
+          <img src="/img/portfolio/{{ page.key }}.png" alt="{{ page.key }}" class="img-rounded">
         </div>
       </div>
     </div>

@@ -30,6 +30,8 @@ titles:
   blog: Blog
 about:
   workplace: Where we work our magic
+portfolio:
+  at: at
 blog:
   by: by
   in: in

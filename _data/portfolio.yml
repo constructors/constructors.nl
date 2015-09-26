@@ -1,0 +1,27 @@
+- page: islide
+  name: iSlide
+  credential:
+    name: Edwin Keijzer
+    position: directeur
+    company: IBG ProjeX
+  testimonial:
+    en: Voor iSlide waren we op zoek naar een partij die op tijd en binnen budget een social media ervaring kon realiseren die werkt, stabiel is en op afstand bij te werken. Constructors is de partij die dit voor elkaar heeft gekregen.
+    nl: Voor iSlide waren we op zoek naar een partij die op tijd en binnen budget een social media ervaring kon realiseren die werkt, stabiel is en op afstand bij te werken. Constructors is de partij die dit voor elkaar heeft gekregen.
+- page: sendcloud
+  name: Sendcloud
+  credential:
+    name: Rob van den Heuvel
+    position: CEO
+    company: Sendcloud
+  testimonial:
+    en: Gezien de snelle groei van ons platform waren we op zoek naar developers die effectief projecten kunnen uitvoeren. De integratie van Bpost is 1 van deze projecten waar we zeer tevreden over zijn.
+    nl: Gezien de snelle groei van ons platform waren we op zoek naar developers die effectief projecten kunnen uitvoeren. De integratie van Bpost is 1 van deze projecten waar we zeer tevreden over zijn.
+- page: gotowork
+  name: GotoWork
+  credential:
+    name: Hans Vereijken
+    position: directeur
+    company: Vereijken Kwekerijen
+  testimonial:
+    en: GotoWork geeft overzicht en bespaart veel tijd en geld in het beheren van onze personeelsplanning.
+    nl: GotoWork geeft overzicht en bespaart veel tijd en geld in het beheren van onze personeelsplanning.

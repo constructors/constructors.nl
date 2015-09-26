@@ -65,13 +65,22 @@ body.front-page {
         height: 130px;
         margin-bottom: 10px;
 
-        .picture {
-          line-height: 120px;
+        img {
+          width: 120px;
+          position: relative;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          -o-transform: translateY(-50%);
+          -moz-transform: translateY(-50%);
+          transform: translateY(-50%);
         }
 
         a:link, a:hover, a:active, a:visited {
           color: #111;
           text-decoration: none;
+          height: 100%;
+          display: block;
         }
       }
 

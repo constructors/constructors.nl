@@ -25,6 +25,17 @@
   @extend .static-blue-background;
   margin-bottom: 1em;
 
+  img {
+    width: 100%;
+    background-color: #EEE;
+    padding: 4px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
   h2 {
     margin: 1em 0;
     color: #EEE;
