@@ -37,3 +37,16 @@
       - Joris is a DevOps connaisseur. That is also the only word he knows in French.
     nl:
       - Joris is een DevOps connaisseur. Dat is ook het enige woord Frans dat hij spreekt.
+- shortname: ben
+  name: Ben van de Sande
+  title: UX Wizard
+  email: ben@constructors.nl
+  github: https://github.com/benvds
+  twitter: https://twitter.com/effective_ux
+  linkedin: https://nl.linkedin.com/in/benvds
+  googleplus: https://plus.google.com/+BenvandeSande
+  skills:
+    en:
+      - Ben is our UX Wizard.
+    nl:
+      - Ben is onze UX Wizard.
