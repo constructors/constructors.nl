@@ -14,7 +14,7 @@ body.front-page {
       @extend .floating-header;
 
       p {
-        color: #EEE;
+        color: $white;
         font-size: 1.2em;
         text-shadow: 1px 1px #000;
       }
@@ -22,7 +22,7 @@ body.front-page {
   }
 
   .content {
-    background-color: #EEE;
+    background-color: $white;
   }
 
   .holy-trinity {
@@ -53,7 +53,7 @@ body.front-page {
     text-align: center;
 
     h3 {
-      color: #eee;
+      color: $white;
       margin-bottom: 30px;
     }
 
@@ -61,7 +61,7 @@ body.front-page {
       margin-top: 10px;
 
       .logo {
-        background-color: #eee;
+        background-color: $white;
         padding: 5px;
         border-radius: 50%;
         width: 130px;
@@ -91,7 +91,7 @@ body.front-page {
         font-size: 14px;
         border: 0;
         footer {
-          color: #eee;
+          color: $white;
         }
       }
     }
@@ -108,7 +108,7 @@ body.front-page {
     h2 {
       font-size: 50px;
       letter-spacing: -1px;
-      color: #eee;
+      color: $white;
 
       span {
         color: #ccc;

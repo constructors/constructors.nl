@@ -1,6 +1,6 @@
 .static-blue-background {
   background-color: $dark-blue;
-  color: #EEE;
+  color: $white;
   background-image: url(/img/transparent-square-tiles.png);
   background-attachment: fixed;
 }
@@ -19,7 +19,7 @@
 
   h1 {
     margin: 0px 0px 7px 0px;
-    color: #EEE;
+    color: $white;
     background-color: transparent;
     text-shadow: 2px 2px #000;
 

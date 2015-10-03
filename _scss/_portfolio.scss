@@ -9,12 +9,12 @@
       @extend .floating-header;
 
       blockquote {
-        color: #EEE;
+        color: $white;
         border: 0;
         padding: 0;
 
         footer {
-          color: #EEE;
+          color: $white;
         }
       }
     }
@@ -27,7 +27,7 @@
 
   img {
     width: 100%;
-    background-color: #EEE;
+    background-color: $white;
     padding: 4px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -38,7 +38,7 @@
 
   h2 {
     margin: 1em 0;
-    color: #EEE;
+    color: $white;
   }
 }
 
@@ -51,7 +51,7 @@
     }
 
     .caption p {
-      color: #EEE;
+      color: $white;
       margin: 0;
       font-size: 0.7em;
     }
