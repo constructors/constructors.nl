@@ -4,32 +4,33 @@ title: titles.blog
 todo: Add pagination when we've got plenty of posts
 ---
 
-{% tf blog/intro.html %}
-
-<div class="row blog-index">
-  {% for post in site.posts %}
-  {% assign mod = forloop.index0 | modulo:2 %}
-  <div class="col-sm-6">
-    <a href="{{ site.baseurl }}{{ post.url }}">
-      <div class="blog-post category-{{ post.category }}">
-        <div class="blog-header"{% if post.image != 'none' %} style="background-image: url(/img/blog/thumb/{{ post.image }})"{% endif %}>
-          <h2>
-            {{ post.title }}
-          </h2>
+<div class="container">
+  {% tf blog/intro.html %}
+  <div class="row blog-index">
+    {% for post in site.posts %}
+    {% assign mod = forloop.index0 | modulo:2 %}
+    <div class="col-sm-6">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="blog-post category-{{ post.category }}">
+          <div class="blog-header"{% if post.image != 'none' %} style="background-image: url(/img/blog/thumb/{{ post.image }})"{% endif %}>
+            <h2>
+              {{ post.title }}
+            </h2>
+          </div>
+          <div class="blog-excerpt">
+            <blockquote>
+              {{ post.excerpt }}
+              <small>{% t blog.on %} {% include date.html date=post.date %} {% t blog.in %} {% t post.lang %} {% t blog.by %} <cite>{{ post.author | capitalize }}</cite>
+              </small>
+            </blockquote>
+          </div>
         </div>
-        <div class="blog-excerpt">
-          <blockquote>
-            {{ post.excerpt }}
-            <small>{% t blog.on %} {% include date.html date=post.date %} {% t blog.in %} {% t post.lang %} {% t blog.by %} <cite>{{ post.author | capitalize }}</cite>
-            </small>
-          </blockquote>
-        </div>
-      </div>
-    </a>
+      </a>
+    </div>
+    {% if mod == 1 %}
   </div>
-  {% if mod == 1 %}
-</div>
-<div class="row blog-index">
-  {% endif %}
-  {% endfor %}
+  <div class="row blog-index">
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>

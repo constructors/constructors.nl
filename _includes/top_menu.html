@@ -8,6 +8,9 @@
   <li{% if page.url == "/contact/index.html" %} class="active"{% endif %}>
     <a href="{{ site.baseurl }}/contact/">{% t menu.contact %}</a>
   </li>
+  <li{% if page.url contains "/portfolio/" %} class="active"{% endif %}>
+    <a href="{{ site.baseurl }}/portfolio/">{% t menu.portfolio %}</a>
+  </li>
   {% assign numberofposts = site.posts | size %}{% if numberofposts > 0 %}
   <li{% if page.url contains "/blog/" %} class="active"{% endif %}>
     <a href="{{ site.baseurl }}/blog/">{% t menu.blog %}</a>

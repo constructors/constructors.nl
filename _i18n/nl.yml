@@ -1,6 +1,9 @@
 ---
 en: Engels
 nl: Nederlands
+month: Maand
+page:
+  lang: Nederlands
 months:
   m1: januari
   m2: februari
@@ -23,15 +26,18 @@ menu:
   about: Over
   contact: Contact
   blog: Blog
+  portfolio: Portfolio
 titles:
   home: Full Service Web Engineering Bureau
   about: Over ons
   contact: Contact
   blog: Blog
+  portfolio: Ons recente werk
 about:
   workplace: Dit is waar het gebeurt
 portfolio:
   at: bij
+  readmore: Lees meer
 blog:
   by: door
   in: in het

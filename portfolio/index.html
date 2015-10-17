@@ -1,0 +1,38 @@
+---
+layout: page
+title: titles.portfolio
+---
+
+{% for customer in site.data.portfolio %}
+<div class="portfolio-index-item backstretched-background" data-background="/img/portfolio/{{ customer.page }}.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="logo">
+          <a href="{{ site.baseurl }}/portfolio/{{ customer.page }}/">
+            <h2>
+              <img class="img-rounded img-responsive" src="/img/portfolio/{{ customer.page }}.png" alt="{{ customer.name }}">
+            </h2>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="testimonial img-rounded">
+          <blockquote>
+            <p>
+              {{ customer.testimonial[site.lang] }}
+            </p>
+            <footer>
+              {{ customer.credential.name }}, {{ customer.credential.position }} {% t portfolio.at %} <cite>{{ customer.credential.company }}</cite>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="readmore">
+          <a href="{{ site.baseurl }}/portfolio/{{ customer.page }}/" class="btn btn-primary">{% t portfolio.readmore %} <i class="fa fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-index-spacer"></div>
+{% endfor %}

@@ -3,48 +3,50 @@ layout: page
 title: titles.about
 ---
 
-<section class="au-intro">
-  <div class="row">
-    <div class="col-md-6 story">
-      {% tf about/about.html %}
-    </div>
-    <div class="col-md-6 office">
-      <img src="/img/pand.jpg" class="img-rounded img-responsive" alt="Office">
-      <div class="overlay">
-        <h3>{% t about.workplace %}</h3>
+<div class="container">
+  <section class="au-intro">
+    <div class="row">
+      <div class="col-md-6 story">
+        {% tf about/about.html %}
+      </div>
+      <div class="col-md-6 office">
+        <img src="/img/pand.jpg" class="img-rounded img-responsive" alt="Office">
+        <div class="overlay">
+          <h3>{% t about.workplace %}</h3>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<div class="visible-md visible-lg spacer">&nbsp;</div>
+  <div class="visible-md visible-lg spacer">&nbsp;</div>
 
-<section class="au-people">
-  <div class="row">
-    {% for constructor in site.data.constructors %}
-    <div class="col-md-3 constructor">
-      <img alt="{{ constructor.name }}" src="/img/heads/{{ constructor.shortname }}.jpg" class="img-circle img-responsive">
-      <div class="name">
-        <h3>{{ constructor.name }}</h3>
-        <small>{{ constructor.title }}</small>
+  <section class="au-people">
+    <div class="row">
+      {% for constructor in site.data.constructors %}
+      <div class="col-md-3 constructor">
+        <img alt="{{ constructor.name }}" src="/img/heads/{{ constructor.shortname }}.jpg" class="img-circle img-responsive">
+        <div class="name">
+          <h3>{{ constructor.name }}</h3>
+          <small>{{ constructor.title }}</small>
+        </div>
+        <p class="social">
+          {% include socialmedialinks.html constructor=constructor %}
+        </p>
+        {% case site.lang %}
+        {% when 'nl' %}
+        {% assign skills = constructor.skills.nl %}
+        {% when 'en' %}
+        {% assign skills = constructor.skills.en %}
+        {% endcase %}
+        {% for skill in skills %}
+        <p>
+          {{ skill }}
+        </p>
+        {% endfor %}
       </div>
-      <p class="social">
-        {% include socialmedialinks.html constructor=constructor %}
-      </p>
-      {% case site.lang %}
-      {% when 'nl' %}
-      {% assign skills = constructor.skills.nl %}
-      {% when 'en' %}
-      {% assign skills = constructor.skills.en %}
-      {% endcase %}
-      {% for skill in skills %}
-      <p>
-        {{ skill }}
-      </p>
       {% endfor %}
     </div>
-    {% endfor %}
-  </div>
-</section>
+  </section>
 
-<div class="visible-md visible-lg spacer">&nbsp;</div>
+  <div class="visible-md visible-lg spacer">&nbsp;</div>
+</div>
