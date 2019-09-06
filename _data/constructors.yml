@@ -1,15 +1,15 @@
 - shortname: bjorn
   name: Bjorn Heesakkers
-  title: CEO
+  title: Full stack developer
   email: bjorn@constructors.nl
   github: https://github.com/bjornconstructors
   twitter: https://twitter.com/bjornheesakkers
   linkedin: http://nl.linkedin.com/pub/bjorn-heesakkers
   skills:
     en:
-      - IT management, Ruby on Rails, Python/Django are some of the things Bjorn knows.
+      - Python and Django, Ruby and Rails, JavaScript and React, Operations and IT management, beer and business dinners.
     nl:
-      - IT management, Ruby on Rails, Python/Django zijn zaken waar Bjorn verstand van heeft.
+      - Python en Django, Ruby en Rails, JavaScript en React, Operations en IT management, bier en business diners.
 - shortname: john
   name: John Roijackers
   title: Hardcore Developer
@@ -36,12 +36,12 @@
       - Joris is een DevOps connaisseur. Dat is ook het enige woord Frans dat hij spreekt.
 - shortname: therry
   name: Therry van Neerven
-  title: Fullstack developer
+  title: Full stack developer
   email: therry.van.neerven@curiousbits.nl
   github: https://github.com/Ecno92
   linkedin: https://www.linkedin.com/in/therryvanneerven
   skills:
     en:
-      - TODO
+      - "Product design, frontend- and backend development, operations, it doesn't matter to Therry: as long as he can create shiny new things."
     nl:
-      - TODO
+      - Product design, frontend- en backend development, operations, het maakt Therry niet uit. Zolang hij maar mooie dingen kan maken.

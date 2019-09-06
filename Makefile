@@ -1,4 +1,4 @@
-.PHONY: develop
+.PHONY: develop bundle-install
 
 bundle-install:
 	bundle install
