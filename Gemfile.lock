@@ -56,7 +56,7 @@ GEM
     sass (3.4.19)
     toml (0.1.2)
       parslet (~> 1.5.0)
-    yajl-ruby (1.2.1)
+    yajl-ruby (1.2.3)
 
 PLATFORMS
   ruby
@@ -66,4 +66,4 @@ DEPENDENCIES
   jekyll-multiple-languages-plugin
 
 BUNDLED WITH
-   1.10.6
+   1.17.3
