@@ -4,14 +4,19 @@ Made using Jekyll, Twitter Bootstrap and a Bootswatch theme.
 
 ## Getting this thing up and running ##
 
-Make sure you've got a recent Ruby and ImageMagick installed. Install pygments
-from pip. Then, run in the souce directory:
+Make sure you've got the correct dependencies installed:
 
-    bundle
+    # On a debian based OS:
+    apt install ruby ruby-bundle imagemagick ruby-dev
+    pip3 install --user pygments
+
+Then install the dependencies of the project:
+
+    make bundle-install
 
 And to develop and/or write new blog posts:
 
-    bundle exec jekyll serve -w --drafts
+    make develop
 
 That's all there is to it.
 
