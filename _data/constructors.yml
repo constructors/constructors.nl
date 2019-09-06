@@ -34,15 +34,14 @@
       - Joris is a DevOps connaisseur. That is also the only word he knows in French.
     nl:
       - Joris is een DevOps connaisseur. Dat is ook het enige woord Frans dat hij spreekt.
-- shortname: was
-  name: Was van de Sande
-  title: UX Wizard
-  email: was@constructors.nl
-  github: 
-  twitter: 
-  linkedin: 
+- shortname: therry
+  name: Therry van Neerven
+  title: Fullstack developer
+  email: therry.van.neerven@curiousbits.nl
+  github: https://github.com/Ecno92
+  linkedin: https://www.linkedin.com/in/therryvanneerven
   skills:
     en:
-      - "Was was our User Experience Wizard. Making your user's experience magical. Beard included."
+      - TODO
     nl:
-      - Was was onze User Experience Wizard. Hij maakte je gebruikservaring magisch. Baard meegeleverd.
+      - TODO
