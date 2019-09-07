@@ -18,6 +18,7 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - Makefile
 defaults:
   -
     scope:
